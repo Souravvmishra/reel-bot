@@ -1,0 +1,314 @@
+[
+  {
+    "ts": "2026-08-15T12:11:29",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": null,
+    "intro": "the “is my brain actually broken or do i just need to be parented” checklist",
+    "items": [
+      "did you drink any water that didn’t come from a coffee pot or a soda can",
+      "are you currently slouching so hard your spine looks like a shrimp",
+      "have you consumed an actual meal that required a plate and silverware",
+      "when was the last time you let sunlight hit your eyeballs",
+      "have you texted back that one friend you’ve been accidentally ghosting for three days",
+      "is it time to wash your face and pretend you’re a functional member of society",
+      "have you closed the endless loop of doomscrolling apps for at least ten minutes",
+      "etc"
+    ]
+  },
+  {
+    "ts": "2026-08-15T12:16:54",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": null,
+    "intro": "the “i have lost the plot and am now just a passenger in my own body” checklist",
+    "items": [
+      "did we actually sleep last night or did we just lie in the dark thinking about every mistake we made in 2016",
+      "have you swallowed a single sip of plain water today or just vibes and caffeinated liquids",
+      "are we currently folded into a shape that would horrify a chiropractor",
+      "have you spoken to another human out loud or are we just communicating via memes and telepathy",
+      "is it time to peel off the outfit you’ve worn for thirty-six consecutive hours",
+      "did you eat a meal that required a plate or did you just graze on pantry scraps like a little raccoon",
+      "etc"
+    ]
+  },
+  {
+    "ts": "2026-08-15T12:17:09",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": null,
+    "intro": "the “i am one minor inconvenience away from deleting my digital footprint and moving to a cabin” checklist",
+    "items": [
+      "have you consumed any water that didn’t involve a tea bag, a coffee bean, or a fizzy syrup",
+      "are you still wearing the exact same clothes you slept in (be honest)",
+      "have you looked at something further than two feet away from your face in the last four hours",
+      "did you eat a real meal, or did you just graze on random ingredients from the pantry like a raccoon",
+      "have you stretched your body or are your shoulders currently trying to merge with your ears",
+      "did you reply to that one text you’ve been avoiding so it stops haunting your subconscious",
+      "etc"
+    ]
+  },
+  {
+    "ts": "2026-08-15T12:17:59",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": null,
+    "intro": "the “my vibes are rancid and i am blaming the universe instead of my own choices” checklist",
+    "items": [
+      "how much of your body’s mass is currently comprised of iced tea or diet soda instead of actual, plain water",
+      "did you eat a meal that required a plate, or have you just been grazing on random pantry ingredients like a raccoon",
+      "have you stretched your limbs at all, or are you currently folded up like a cheap lawn chair",
+      "did you open a window to let out the stale air you’ve been breathing since yesterday",
+      "have you spoken aloud to a real human, or has your only communication been sending silent, dry-hyena-laugh reels",
+      "did you actually brush your teeth today, or are you just hoping no one gets close enough to notice",
+      "etc"
+    ]
+  },
+  {
+    "ts": "2026-08-15T12:18:27",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": null,
+    "intro": "the “i’m treating my body like a stolen rental car and wondering why the engine is smoking” checklist",
+    "items": [
+      "have you consumed actual water or is your blood mostly iced matcha and spite right now",
+      "uncurl your spine from that tragic C-shape you’ve been holding since 9 a.m.",
+      "please wash your face, even if it’s just a lazy splash of cold water to shock your system",
+      "look at something at least twenty feet away to remind your eyes that the 3D world exists",
+      "have you eaten a real, solid meal or have you just been grazing on random pantry ingredients like a raccoon",
+      "text one person back so they know you haven’t permanently slipped into the ether",
+      "etc"
+    ]
+  },
+  {
+    "ts": "2026-08-15T12:20:08",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": null,
+    "intro": "the “i’m convinced everyone hates me and i have failed at life” checklist",
+    "items": [
+      "did you actually drink real water today or just three sips of a lukewarm beverage you abandoned hours ago",
+      "have you eaten a meal that required a plate, or have you just been foraging like a raccoon in the pantry",
+      "have you looked at a tree or some grass recently, or just the glowing rectangle of doom",
+      "did you stretch your body at all today, or have you been folded up like a cheap lawn chair",
+      "is it possible you need to wash your face and wash away the heavy energy of the last twelve hours",
+      "have you texted a friend to realize they don’t actually hate you, your brain is just lying",
+      "etc"
+    ]
+  },
+  {
+    "ts": "2026-08-15T12:21:38",
+    "source": "local (fallback)",
+    "theme": "overthinking",
+    "intro": "a quick “why can’t my brain shut up” checklist",
+    "items": [
+      "would you say this out loud to your best friend",
+      "have you had water",
+      "have you taken five slow breaths",
+      "is it 2am (go to sleep, nothing good happens after 2am)",
+      "how long have you been on your phone",
+      "is this problem happening right now or in your head",
+      "what’s one thing you know is actually true",
+      "and if you said no to all of these — take care of yourself"
+    ]
+  },
+  {
+    "ts": "2026-08-15T12:22:10",
+    "source": "local (fallback)",
+    "theme": "anxious",
+    "intro": "the “i’m anxious and i don’t know why” checklist",
+    "items": [
+      "have you taken ten slow breaths",
+      "have you moved your body to burn off the adrenaline",
+      "is your body telling you to slow down",
+      "have you told someone how you feel",
+      "have you been scrolling bad news for hours",
+      "have you had way too much caffeine",
+      "have you eaten or had water in the last six hours",
+      "etc"
+    ]
+  },
+  {
+    "ts": "2026-08-15T12:26:32",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "room",
+    "intro": "the “my bedroom looks like it was searched by the fbi” checklist",
+    "items": [
+      "is there a small, sentient ecosystem of half-finished mugs forming on your nightstand",
+      "is your desk chair actually just a mountain of clothes that you are pretending is a decorative sculpture",
+      "how many empty cardboard boxes are currently acting as structural support for your room",
+      "are you currently sleeping on the one clear sliver of your bed because the rest is holding your belongings hostage",
+      "have you had to parkour over mysterious floor piles just to get to the door",
+      "does the air in here taste slightly like dusty fabrics and a hint of yesterday’s dinner",
+      "did you just kick a pile of wrappers under your bed and declare it a job well done",
+      "etc"
+    ]
+  },
+  {
+    "ts": "2026-08-15T12:27:53",
+    "source": "local (fallback)",
+    "theme": "body",
+    "intro": "a quick “why does my body hurt” checklist",
+    "items": [
+      "have you unclenched your jaw (you’re welcome)",
+      "has your posture given up on life",
+      "have you walked further than from your bed to your couch",
+      "is your body trying to tell you something you’re ignoring",
+      "is your neck doing that phone-tilt thing",
+      "when did you last move your body without a screen in front of it",
+      "and if you said no to all of these — take care of yourself"
+    ]
+  },
+  {
+    "ts": "2026-08-15T12:33:03",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "money",
+    "intro": "the “i’m too scared to open my banking app” checklist",
+    "items": [
+      "have you looked at your account or are you just hoping for the best",
+      "did you order takeout because cooking felt too hard",
+      "are you still paying for that app you forgot you had",
+      "did you buy a “little treat” because you had a bad day",
+      "did all those small five dollar buys secretly add up",
+      "did you buy things online late at night again",
+      "etc"
+    ]
+  },
+  {
+    "ts": "2026-08-15T12:35:02",
+    "source": "local (fallback)",
+    "theme": "outside",
+    "intro": "the “i live indoors now” checklist",
+    "items": [
+      "have you felt wind on your face",
+      "are your curtains closed 24/7",
+      "is your vitamin d level a single digit",
+      "have you touched grass, literally",
+      "have you seen the sun today (it’s still there)",
+      "have you looked at a tree and felt something",
+      "is your outside voice a foreign language",
+      "etc"
+    ]
+  },
+  {
+    "ts": "2026-08-15T12:35:40",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "screens",
+    "intro": "the “i have been staring at a glowing brick for hours” checklist",
+    "items": [
+      "is your phone actually hot in your hand right now",
+      "did you close an app just to open it again two seconds later",
+      "is your pinky finger hurting from holding up your screen",
+      "have you looked at a wall or out a window in the last hour",
+      "are you scrolling past videos you don’t even care about",
+      "is your phone about to die and you still won’t grab the charger",
+      "etc"
+    ]
+  },
+  {
+    "ts": "2026-08-15T12:38:56",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "eating",
+    "intro": "the “i forgot how to feed myself” checklist",
+    "items": [
+      "was your lunch just coffee again",
+      "did you stare at the fridge and walk away",
+      "are your hands shaking a little bit",
+      "are you mad at everyone for no reason",
+      "when did you last chew actual food",
+      "can you go eat a slice of bread right now",
+      "etc"
+    ]
+  },
+  {
+    "ts": "2026-08-15T13:44:29",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "work",
+    "intro": "the “sunday scaries are winning” checklist",
+    "items": [
+      "have you spent all day worrying about tomorrow",
+      "are you checking your work chat even though you’re off",
+      "did you say yes to a meeting that’s going to be awful",
+      "is your alarm sound set to a noise you hate",
+      "are you trying to do a week of chores in ten minutes",
+      "did you actually enjoy your day or did you just wait for it to end",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "sundayscaries",
+      "dreadingmonday",
+      "workstress",
+      "sundaynight"
+    ]
+  },
+  {
+    "ts": "2026-08-15T13:52:30",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "anxiety",
+    "intro": "the “my chest feels two sizes too small” checklist",
+    "items": [
+      "are your shoulders up by your ears right now",
+      "are you holding your breath and you don’t even know why",
+      "did you drink coffee on an empty stomach today",
+      "are you clenching your jaw super tight",
+      "can you uncross your legs and let your body go soft",
+      "can you take three slow, deep breaths right now",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "anxietyrelief",
+      "tightchest",
+      "overthinking",
+      "stressrelief"
+    ]
+  },
+  {
+    "ts": "2026-08-15T13:55:21",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "hygiene",
+    "intro": "the “i feel like a sticky pile of laundry” checklist",
+    "items": [
+      "are you wearing the same shirt you slept in",
+      "is there a greasy layer on your forehead right now",
+      "does your mouth taste kind of stale",
+      "is your hair tied up in a knot that feels permanent",
+      "did you sniff your shirt just to see if it’s dirty",
+      "are you sitting in a little pile of food crumbs",
+      "would some cool water on your face fix your whole day",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "feelinggross",
+      "lazyday",
+      "resetday",
+      "hygiene"
+    ]
+  },
+  {
+    "ts": "2026-08-15T14:18:28",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "outside",
+    "intro": "the “my front door is just for show now” checklist",
+    "items": [
+      "do you actually know what the weather is like outside today",
+      "have you put on shoes that aren’t slippers",
+      "did you step past your front door at all today",
+      "was the delivery guy the only human you saw",
+      "did you open a window just to feel some real air",
+      "is your mail piling up because you won’t go get it",
+      "etc"
+    ],
+    "hashtags": [
+      "selfcare",
+      "checklist",
+      "mentalhealth",
+      "homebody",
+      "indoorlife",
+      "introvertproblems",
+      "gooutside"
+    ]
+  }
+]

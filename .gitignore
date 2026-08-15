@@ -1,0 +1,26 @@
+# secrets - never commit
+.env
+
+# python
+__pycache__/
+.venv/
+
+# regenerable outputs (rebuilt by make_post / make_video / make_avatar)
+post.png
+post-reel.png
+post-reel.mp4
+profile_pic.png
+
+# bot / run state
+comment_state.json
+uvicorn.log
+
+# app data
+.freebuff/
+
+# local media not part of the pipeline (kept out of the repo)
+preview.html
+WhatsApp Image 2026-08-15 at 10.44.58 AM.jpeg
+
+# post_history.json is COMMITTED on purpose - it feeds the subject-rotation
+# memory; the workflow pushes it back after each post.
