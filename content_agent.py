@@ -6,6 +6,8 @@ Content agent — writes the text for self-care / relatable checklist posts
 Usage:
     python3 content_agent.py --video                   # everything, one line
     python3 content_agent.py --post                    # ...and post it to IG
+    python3 content_agent.py --youtube                 # ...and post it to YouTube
+    python3 content_agent.py --post --youtube          # both, in one run
     python3 content_agent.py                            # one random draft
     python3 content_agent.py --theme sleep              # draft for a topic
     python3 content_agent.py --list-themes              # show available topics
@@ -293,6 +295,159 @@ THEMES = {
             "did you skip breakfast and wonder why you’re crying",
             "is your diet 80 percent caffeine",
             "have you eaten at a table or standing over the sink",
+        ],
+    },
+    "marriage": {
+        "label": "Marriage feels like roommates",
+        "intros": [
+            "a quick “why does my marriage feel like a roommate situation” checklist",
+            "the “we said forever and now we just coexist” checklist",
+            "a quick “why are we married but lonely” checklist",
+        ],
+        "items": [
+            "when did you last go on an actual date with them",
+            "do you talk about anything besides chores and logistics",
+            "have you texted them something flirty today",
+            "are you both on your phones on the same couch",
+            "when did you last ask about their day and actually listen",
+            "have you said thank you for the small stuff lately",
+            "are you fighting about the same thing since 2019",
+            "have you touched them without it leading somewhere",
+            "do you still like them or just love them",
+            "have you picked them over being right this week",
+        ],
+    },
+    "social": {
+        "label": "Social life is a desert",
+        "intros": [
+            "a quick “why is my social life a desert” checklist",
+            "the “i have no plans and it’s saturday” checklist",
+        ],
+        "items": [
+            "have you said yes to anything this month",
+            "is your weekend calendar just your couch",
+            "have you made the first move or always waited",
+            "are you still texting back within 24 hours",
+            "is your whole social life just work friends",
+            "have you done something social without a screen",
+            "when did you last laugh out loud with a person",
+            "are you waiting for someone else to plan it",
+            "have you invited anyone to anything ever",
+            "is your ‘i’m busy’ actually ‘i’m scared’",
+        ],
+    },
+    "dating": {
+        "label": "Can’t talk to the opposite gender",
+        "intros": [
+            "a quick “why can’t i talk to the opposite gender” checklist",
+            "the “i turn into a different person around them” checklist",
+        ],
+        "items": [
+            "have you had a normal conversation without performing",
+            "are you being yourself or a character you made up",
+            "do you flirt or just panic and go silent",
+            "have you asked about them instead of talking about you",
+            "do you treat them like an alien species or a person",
+            "have you texted first or are you waiting forever",
+            "is every interaction a job interview in your head",
+            "have you remembered they’re also nervous",
+            "are you scared of rejection or of being seen",
+            "have you smiled like a human instead of a mannequin",
+        ],
+    },
+    "philosophy": {
+        "label": "Existential crisis at 3am",
+        "intros": [
+            "a quick “why am i having an existential crisis at 3am” checklist",
+            "the “what is the point of any of this” checklist",
+        ],
+        "items": [
+            "have you eaten today (deep thoughts are hungry thoughts)",
+            "is this a real question or a 3am question",
+            "are you tired (all philosophy hits harder when tired)",
+            "have you touched grass and looked at the sky",
+            "is your crisis about the universe or your to-do list",
+            "are you avoiding life by thinking about existence",
+            "have you talked to a person instead of a concept",
+            "is your meaning of life just a nap away",
+            "have you done one small real thing today",
+            "are you trying to solve everything at once again",
+        ],
+    },
+    "psychology": {
+        "label": "Self-diagnosing at 2am",
+        "intros": [
+            "a quick “why am i psychoanalyzing myself at 2am” checklist",
+            "the “i diagnosed myself with everything” checklist",
+        ],
+        "items": [
+            "have you read one article and now you’re a doctor",
+            "have you labeled a normal feeling as a disorder",
+            "is your personality a list of online diagnoses",
+            "have you actually asked a real professional",
+            "are you using therapy words as weapons on yourself",
+            "is your brain just tired, not broken",
+            "have you slept or are you analyzing on empty",
+            "are you overthinking a text (it was fine)",
+            "have you done one thing without analyzing it first",
+            "is this insight or just spiraling with extra steps",
+        ],
+    },
+    "gym": {
+        "label": "Gym motivation is dead",
+        "intros": [
+            "a quick “why can’t i get to the gym” checklist",
+            "the “i bought the membership and never went back” checklist",
+        ],
+        "items": [
+            "have you actually gone or just watched gym content",
+            "is your gym bag packed or just a dream",
+            "are you ‘too tired’ for the 50th day in a row",
+            "are you comparing your day one to their year five",
+            "have you eaten actual protein or just protein bars",
+            "is your routine ‘looking at the gym from my car’",
+            "did you sleep (muscles grow in bed, not the gym)",
+            "have you gone twice in the same week this month",
+            "is your goal real or a new year’s ghost",
+            "would you go if it was just for you, not the mirror",
+        ],
+    },
+    "procrastination": {
+        "label": "Can’t start anything",
+        "intros": [
+            "a quick “why can’t i start anything” checklist",
+            "the “i’ll do it later (i won’t)” checklist",
+        ],
+        "items": [
+            "is the task actually big or just loud in your head",
+            "have you broken it into a stupidly small first step",
+            "are you waiting for motivation that never comes",
+            "have you started for just five minutes (that’s the trick)",
+            "is your phone in the same room right now",
+            "are you scrolling to feel productive instead of doing",
+            "have you done the hardest thing first or saved it forever",
+            "is ‘i work better under pressure’ just your excuse",
+            "would future you forgive you or be mad",
+            "have you just done one tiny thing yet",
+        ],
+    },
+    "confidence": {
+        "label": "Confidence in the gutter",
+        "intros": [
+            "a quick “why is my confidence in the gutter” checklist",
+            "the “i feel like i’m failing at being me” checklist",
+        ],
+        "items": [
+            "are you comparing your insides to everyone’s outsides",
+            "have you done one thing you said you’d do today",
+            "is your self talk something you’d say to a friend",
+            "are you waiting to feel ready before you start",
+            "have you remembered the things you’re actually good at",
+            "are you confusing confidence with being perfect",
+            "have you stood up straight and faked it a little",
+            "is your bar set by strangers on the internet",
+            "have you kept a promise to yourself this week",
+            "did you show up even when you didn’t feel like it",
         ],
     },
 }
@@ -608,6 +763,27 @@ def post_to_instagram(intro, video_url, tags):
         sys.exit(1)
 
 
+def post_to_youtube(intro, items, tags, title=None, description=None,
+                    privacy="public"):
+    """Publish the reel to YouTube via the Data API v3. Unlike Instagram,
+    YouTube accepts a direct file upload, so no hosted URL is needed."""
+    here = os.path.dirname(os.path.abspath(__file__))
+    cmd = [sys.executable, os.path.join(here, "post_youtube.py"),
+           "--file", os.path.join(here, "post-reel.mp4"),
+           "--title", title or intro,
+           "--description", description or build_caption(intro, tags),
+           "--privacy", privacy]
+    print("posting to youtube (Data API v3):",
+          os.path.join(here, "post_youtube.py"), "\n")
+    try:
+        subprocess.run(cmd, check=True)
+    except subprocess.CalledProcessError as e:
+        err = (e.stderr or e.stdout or "").strip().splitlines()
+        print(f"Error: YouTube post failed: "
+              f"{err[-1] if err else 'unknown'}", file=sys.stderr)
+        sys.exit(1)
+
+
 def make_video(audio, audio_start):
     """Re-encode the reel MP4 with audio (make_video.py)."""
     here = os.path.dirname(os.path.abspath(__file__))
@@ -668,6 +844,20 @@ def main():
                    help="like --video, then publish the reel to Instagram "
                         "via the official Graph API (needs --video-url and "
                         "IG_ACCESS_TOKEN in .env)")
+    p.add_argument("--youtube", action="store_true",
+                   help="like --video, then publish the reel to YouTube via "
+                        "the Data API v3 (needs YT_CLIENT_ID, "
+                        "YT_CLIENT_SECRET, YT_REFRESH_TOKEN in .env - see "
+                        "YT_SETUP.md)")
+    p.add_argument("--yt-title", default=None,
+                   help="(with --youtube) video title (default: the hook "
+                        "line)")
+    p.add_argument("--yt-description", default=None,
+                   help="(with --youtube) video description (default: the "
+                        "caption text)")
+    p.add_argument("--yt-privacy", choices=["public", "unlisted", "private"],
+                   default="public",
+                   help="(with --youtube) upload privacy (default public)")
     p.add_argument("--video-url", default=None,
                    help="(with --post) PUBLIC https URL where post-reel.mp4 "
                         "is hosted - the Graph API downloads it from there. "
@@ -693,11 +883,11 @@ def main():
                    help="(with --render) reel card scale (default 1.2)")
     args = p.parse_args()
 
-    if args.post:                       # --post implies the whole pipeline
+    if args.post or args.youtube:       # --post / --youtube imply the pipeline
         args.video = True
-        if not args.video_url:
-            print("(no --video-url given - the reel will be hosted on "
-                  "GitHub automatically)")
+    if args.post and not args.video_url:
+        print("(no --video-url given - the reel will be hosted on "
+              "GitHub automatically)")
     if args.video:                      # --video implies the whole pipeline
         args.render = True
         args.reel = True
@@ -847,6 +1037,11 @@ def main():
                     print(f"  hosted at {url}")
                 post_to_instagram(last[0], url, last_tags)
                 print("Done: reel posted to Instagram.")
+            if args.youtube:
+                post_to_youtube(last[0], last[1], last_tags,
+                                args.yt_title, args.yt_description,
+                                args.yt_privacy)
+                print("Done: reel posted to YouTube.")
         else:
             print("Next step (add your audio):")
             print("  .venv/bin/python make_video.py --audio song.mp3 "

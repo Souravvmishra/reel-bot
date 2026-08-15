@@ -2,7 +2,8 @@
 #
 # Runs the exact same pipeline as the local/API flow on a free GitHub
 # Actions runner (ffmpeg is bundled via imageio-ffmpeg):
-#   generate -> render -> encode -> push to GH_REPO -> post -> cleanup.
+#   generate -> render -> encode -> push to GH_REPO -> post to IG ->
+#   upload the same file to YouTube -> cleanup.
 #
 # Two ways to trigger:
 #   1. On a schedule: TWICE a day at the two best posting windows (see
@@ -20,7 +21,10 @@
 #
 # One-time setup: add these repo secrets (Settings -> Secrets and
 # variables -> Actions): GOOGLE_API_KEY, IG_ACCESS_TOKEN, IG_USER_ID,
-# GH_REPO, GH_TOKEN. GH_TOKEN needs Contents read/write on GH_REPO.
+# GH_REPO, GH_TOKEN, YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN.
+# GH_TOKEN needs Contents read/write on GH_REPO; the YT_* secrets come
+# from the one-time Google login (see YT_SETUP.md - run
+# post_youtube.py --auth locally to get YT_REFRESH_TOKEN).
 name: post-reel
 
 # The save-history step pushes post_history.json back to THIS repo, so the
@@ -54,11 +58,17 @@ jobs:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           GH_REPO: ${{ secrets.GH_REPO }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
           AUDIO_PATH: audio/reel.mp3   # muxed into the reel on the runner
         # --post without --video-url auto-hosts the freshly made reel on
-        # GitHub (generate -> render -> encode -> host -> publish -> cleanup).
+        # GitHub for IG (generate -> render -> encode -> host -> publish ->
+        # cleanup); --youtube uploads that same local file straight to
+        # YouTube (the Data API accepts a direct file upload, so no
+        # hosting needed there).
         run: |
-          python3 content_agent.py --post
+          python3 content_agent.py --post --youtube
 
       # Push the updated post_history.json back so the subject-rotation
       # memory (last 5 posts) survives from one scheduled run to the next.

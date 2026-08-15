@@ -381,5 +381,29 @@
       "phoneaddiction",
       "digitaldetox"
     ]
+  },
+  {
+    "ts": "2026-08-15T16:34:08",
+    "source": "local (fallback)",
+    "theme": "procrastination",
+    "intro": "the “i’ll do it later (i won’t)” checklist",
+    "items": [
+      "is the task actually big or just loud in your head",
+      "is your phone in the same room right now",
+      "would future you forgive you or be mad",
+      "have you done the hardest thing first or saved it forever",
+      "have you started for just five minutes (that’s the trick)",
+      "have you broken it into a stupidly small first step",
+      "are you scrolling to feel productive instead of doing",
+      "or none of the above and you just need a hug"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
