@@ -67,6 +67,8 @@ THEMES = {
             "is your brain full of other people’s opinions right now",
             "have you watched one full video without skipping ahead",
         ],
+        "keywords": ["screen", "phone", "scroll", "thumb", "app",
+                     "doom", "video", "feed", "media"],
     },
     "money": {
         "label": "Bank account crying",
@@ -86,6 +88,9 @@ THEMES = {
             "have you paid that one bill you keep forgetting",
             "is ‘treat yourself’ becoming a lifestyle",
         ],
+        "keywords": ["bank", "money", "card", "bill", "pay", "buy",
+                     "bought", "subscription", "spend", "balance",
+                     "account", "coffee"],
     },
     "room": {
         "label": "Room feels like a crime scene",
@@ -105,6 +110,9 @@ THEMES = {
             "is your space making your brain feel messier",
             "when did you last vacuum (ever)",
         ],
+        "keywords": ["room", "bed", "laundry", "sheet", "desk",
+                     "trash", "floor", "clothes", "cup", "window",
+                     "vacuum", "mess"],
     },
     "friends": {
         "label": "Disconnected from people",
@@ -125,6 +133,9 @@ THEMES = {
             "have you replied ‘lol’ and called it a conversation",
             "when did you last hear a friend’s actual voice",
         ],
+        "keywords": ["friend", "text", "message", "hang", "call",
+                     "voice", "plan", "lonely", "isolat", "repli",
+                     "reach"],
     },
     "work": {
         "label": "Dreading monday",
@@ -144,6 +155,9 @@ THEMES = {
             "have you logged off today or are you ‘just checking’",
             "do you remember why you took this job",
         ],
+        "keywords": ["work", "job", "email", "meeting", "monday",
+                     "desk", "office", "task", "deadline", "lunch",
+                     "vacation", "boss"],
     },
     "body": {
         "label": "Body falling apart",
@@ -163,6 +177,9 @@ THEMES = {
             "when did you last move your body without a screen in front of it",
             "is your body trying to tell you something you’re ignoring",
         ],
+        "keywords": ["body", "back", "neck", "shoulder", "posture",
+                     "stretch", "walk", "jaw", "sit", "pain", "hurt",
+                     "move"],
     },
     "sleep": {
         "label": "Tired at 3pm",
@@ -182,6 +199,9 @@ THEMES = {
             "have you been awake since 4am thinking about that thing",
             "did you scroll for ‘five minutes’ at midnight (it was two hours)",
         ],
+        "keywords": ["sleep", "bed", "tired", "nap", "caffeine",
+                     "alarm", "midnight", "wake", "awake", "night",
+                     "slept", "exhausted"],
     },
     "hygiene": {
         "label": "Feeling gross",
@@ -201,6 +221,9 @@ THEMES = {
             "when did you last do laundry",
             "do you smell like the ghost of your past self",
         ],
+        "keywords": ["shower", "brush", "teeth", "hair", "wash",
+                     "clothes", "sock", "mirror", "smell", "face",
+                     "gross", "laundry"],
     },
     "outside": {
         "label": "Never leaving the house",
@@ -220,6 +243,9 @@ THEMES = {
             "is your outside voice a foreign language",
             "have you looked at a tree and felt something",
         ],
+        "keywords": ["sun", "outside", "grass", "walk", "door",
+                     "window", "air", "vitamin", "tree", "house",
+                     "indoor", "curtain"],
     },
     "anxiety": {
         "label": "Chest tight",
@@ -239,6 +265,9 @@ THEMES = {
             "are you anxious about something real or something your brain made up",
             "have you named what you’re scared of, out loud",
         ],
+        "keywords": ["anxiet", "anxious", "breath", "chest", "heart",
+                     "nervous", "panic", "worr", "calm", "racing",
+                     "tight", "scared"],
     },
     "brain": {
         "label": "Brain won’t shut up",
@@ -258,6 +287,8 @@ THEMES = {
             "have you written the thought down so it stops looping",
             "is your brain replaying something from 2016",
         ],
+        "keywords": ["brain", "thought", "think", "overthink", "replay",
+                     "worr", "problem", "mind", "loop", "shut", "2am"],
     },
     "comparison": {
         "label": "Everyone else has it together",
@@ -277,6 +308,9 @@ THEMES = {
             "is ‘everyone else’ actually just five people you don’t know",
             "have you touched grass and realized the algorithm isn’t real life",
         ],
+        "keywords": ["compar", "jealous", "envy", "everyone",
+                     "highlight", "someone", "grid", "feed", "behind",
+                     "life", "post"],
     },
     "eating": {
         "label": "Forgot to eat again",
@@ -296,6 +330,9 @@ THEMES = {
             "is your diet 80 percent caffeine",
             "have you eaten at a table or standing over the sink",
         ],
+        "keywords": ["eat", "food", "meal", "plate", "hungr",
+                     "hangry", "lunch", "breakfast", "snack",
+                     "vegetable", "water", "coffee"],
     },
     "marriage": {
         "label": "Marriage feels like roommates",
@@ -316,6 +353,9 @@ THEMES = {
             "do you still like them or just love them",
             "have you picked them over being right this week",
         ],
+        "keywords": ["marriage", "married", "spouse", "husband", "wife",
+                     "partner", "date", "fight", "argue", "love",
+                     "couch", "forever"],
     },
     "social": {
         "label": "Social life is a desert",
@@ -335,6 +375,9 @@ THEMES = {
             "have you invited anyone to anything ever",
             "is your ‘i’m busy’ actually ‘i’m scared’",
         ],
+        "keywords": ["social", "plan", "weekend", "invite", "hang",
+                     "party", "lonely", "couch", "saturday", "friend",
+                     "yes"],
     },
     "dating": {
         "label": "Can’t talk to the opposite gender",
@@ -354,6 +397,9 @@ THEMES = {
             "are you scared of rejection or of being seen",
             "have you smiled like a human instead of a mannequin",
         ],
+        "keywords": ["date", "dating", "flirt", "text", "crush",
+                     "reject", "nervous", "gender", "talk", "confident",
+                     "silent", "character"],
     },
     "philosophy": {
         "label": "Existential crisis at 3am",
@@ -373,6 +419,9 @@ THEMES = {
             "have you done one small real thing today",
             "are you trying to solve everything at once again",
         ],
+        "keywords": ["philosoph", "exist", "meaning", "point", "universe",
+                     "life", "3am", "deep", "crisis", "purpose", "nap",
+                     "real"],
     },
     "psychology": {
         "label": "Self-diagnosing at 2am",
@@ -392,6 +441,9 @@ THEMES = {
             "have you done one thing without analyzing it first",
             "is this insight or just spiraling with extra steps",
         ],
+        "keywords": ["psycholog", "diagnos", "doctor", "disorder",
+                     "therap", "analyz", "label", "professional",
+                     "symptom", "article", "insight", "spiral"],
     },
     "gym": {
         "label": "Gym motivation is dead",
@@ -411,6 +463,9 @@ THEMES = {
             "is your goal real or a new year’s ghost",
             "would you go if it was just for you, not the mirror",
         ],
+        "keywords": ["gym", "workout", "exercis", "muscle", "protein",
+                     "membership", "lift", "train", "routine", "fit",
+                     "motivat"],
     },
     "procrastination": {
         "label": "Can’t start anything",
@@ -430,6 +485,9 @@ THEMES = {
             "would future you forgive you or be mad",
             "have you just done one tiny thing yet",
         ],
+        "keywords": ["procrastinat", "start", "task", "later", "scroll",
+                     "motivat", "minute", "deadline", "avoid", "done",
+                     "pressure", "phone"],
     },
     "confidence": {
         "label": "Confidence in the gutter",
@@ -449,6 +507,9 @@ THEMES = {
             "have you kept a promise to yourself this week",
             "did you show up even when you didn’t feel like it",
         ],
+        "keywords": ["confiden", "self", "worth", "ready", "perfect",
+                     "believ", "proud", "promise", "compar", "show",
+                     "fail"],
     },
 }
 
@@ -524,27 +585,111 @@ def _norm(s):
     return "".join(ch for ch in s.lower() if ch.isalnum())
 
 
-def item_overlap(a, b):
-    """Fraction of the shorter item list that the other one shares."""
-    aa = {_norm(x) for x in a[:-1]}
-    bb = {_norm(x) for x in b[:-1]}
-    if not aa or not bb:
+# Filler words dropped before comparing items, so two drafts that say the
+# same thing in different wrapper words still get caught.
+STOPWORDS = {
+    "a", "about", "actually", "again", "all", "an", "and", "any", "are",
+    "at", "be", "been", "being", "but", "by", "can", "could", "did",
+    "do", "does", "done", "down", "even", "ever", "feel", "feeling",
+    "feels", "for", "from", "get", "go", "going", "got", "have", "how",
+    "in", "into", "is", "it", "its", "just", "like", "make", "me",
+    "my", "of", "on", "one", "or", "out", "really", "right", "should",
+    "so", "some", "that", "the", "their", "them", "there", "they",
+    "this", "to", "today", "two", "up", "was", "we", "were", "what",
+    "when", "why", "will", "with", "would", "you", "your",
+}
+
+
+def _stem(w):
+    """Crude stemmer - good enough for overlap detection."""
+    for suf in ("ing", "ed", "es", "s"):
+        if len(w) > len(suf) + 3 and w.endswith(suf):
+            return w[:-len(suf)]
+    return w
+
+
+def content_tokens(text):
+    """Content words of a line: lowercased, lightly stemmed, no filler."""
+    out = []
+    for raw in re.findall(r"[a-zA-Z’']+", text.lower()):
+        w = raw.strip("’'")
+        if w in STOPWORDS or len(w) < 3:
+            continue
+        w = _stem(w)
+        if w:
+            out.append(w)
+    return out
+
+
+def _ngrams(tokens, n):
+    return {tuple(tokens[i:i + n]) for i in range(len(tokens) - n + 1)}
+
+
+def item_similarity(a, b):
+    """Jaccard similarity of two items' content-word sets."""
+    ta, tb = set(content_tokens(a)), set(content_tokens(b))
+    if not ta or not tb:
         return 0.0
-    return len(aa & bb) / min(len(aa), len(bb))
+    return len(ta & tb) / min(len(ta), len(tb))
+
+
+# Jokes recycled across past posts. A draft that reaches for any of these
+# (even freshly worded) gets rejected - they've been done to death.
+REPEATED_BITS = [
+    r"raccoon",                       # the pantry-raccoon grazing joke
+    r"pantry",
+    r"required a plate",
+    r"cheap lawn chair",
+    r"horrify a chiropractor",
+    r"folded (up )?like a",
+]
+
+
+def _item_is_stale(cand, hist):
+    """True if `cand` repeats `hist` in substance (not just verbatim)."""
+    if _norm(cand) == _norm(hist):
+        return True
+    if item_similarity(cand, hist) > 0.55:
+        return True
+    ta, tb = content_tokens(cand), content_tokens(hist)
+    if len(_ngrams(ta, 4) & _ngrams(tb, 4)) >= 1:
+        return True
+    if len(_ngrams(ta, 3) & _ngrams(tb, 3)) >= 3:
+        return True
+    return False
+
+
+def find_duplicate_items(items, seen):
+    """History items too close to `items` (the closer is ignored).
+
+    Returns the offending lines so they can be fed back to the writer as
+    "avoid these" - much better feedback than a bare reject.
+    """
+    hits = []
+    for cand in items[:-1]:
+        for raw in REPEATED_BITS:
+            if re.search(raw, cand, re.IGNORECASE):
+                hits.append(cand)
+        for h in seen:
+            for hist in (h.get("items") or [])[:-1]:
+                if _item_is_stale(cand, hist):
+                    hits.append(hist)
+    return list(dict.fromkeys(hits))          # dedupe, keep order
 
 
 def is_duplicate(seen, intro, items):
-    """True if the same hook, same item list, or >50% item overlap exists."""
-    sig = tuple(_norm(x) for x in items[:-1])
+    """True if the same hook appears, or any item repeats a past one."""
     for h in seen:
         if h.get("intro") == intro:
             return True
-        hsig = tuple(_norm(x) for x in (h.get("items") or [])[:-1])
-        if sig and hsig == sig:
-            return True
-        if item_overlap(items, h.get("items") or []) > 0.5:
-            return True
-    return False
+    return bool(find_duplicate_items(items, seen))
+
+
+def off_theme_items(items, keywords):
+    """Items that mention none of the theme's keywords at all - the closer
+    is ignored. Used to reject drafts that drifted off-subject."""
+    return [it for it in items[:-1]
+            if not any(k in it.lower() for k in keywords)]
 
 
 def vowel_groups(w):
@@ -623,10 +768,15 @@ STRICT RULE - EASY READING (this is the MOST IMPORTANT rule, never break it):
 Originality rules (important):
 - Every post must feel genuinely fresh: a new hook, a new angle, mostly new
   items. Vary the item count, the phrasing, and the sentence patterns.
-- Stay on THIS POST'S SUBJECT (given below). Every item must relate directly
-  to that subject - do not drift back to the generic water/sleep/screen trio
-  unless it genuinely fits the subject.
+- STRICT RULE - STAY ON SUBJECT: every item MUST be specifically about THIS
+  POST'S SUBJECT. Items about water, sleep, posture, screens, eating, or
+  texting friends that could appear in ANY self-care checklist are banned
+  unless they directly serve the subject. When in doubt, rewrite the item to
+  be specific to the subject.
 - Never reuse the same sentence patterns across posts.
+- Never repeat jokes you (or past posts) have used: no grazing like a
+  raccoon, no cheap lawn chair, no "meal that required a plate", no folded
+  like a shrimp. Fresh jokes only.
 
 Example:
 intro: a quick \u201cwhy is my life so bad\u201d checklist
@@ -644,14 +794,15 @@ no spaces in any tag, all must relate to the post)."""
 
 
 def gemini_draft(model, api_key, recent=None, topic=None, avoid=None,
-                 hard_words=None):
+                 hard_words=None, off_topic=None):
     """Ask Gemini for a draft; returns (intro, items, hashtags).
 
     `recent` is a list of recent post dicts (hooks AND items are fed to the
     model so it avoids repeating them). `topic` pins the checklist subject.
     `avoid` is a list of items from a previous attempt that was rejected as
     too similar. `hard_words` is a list of hard words to avoid from a
-    previous attempt that broke the easy-reading rule.
+    previous attempt that broke the easy-reading rule. `off_topic` is a list
+    of items from a previous attempt that drifted off the subject.
     """
     t = THEMES.get(topic)
     prompt = GEMINI_PROMPT
@@ -691,6 +842,14 @@ def gemini_draft(model, api_key, recent=None, topic=None, avoid=None,
             + ", ".join(hard_words)
             + ".\nUse the shortest, simplest everyday words possible - the "
             "easiest version of every sentence.")
+    if off_topic:
+        prompt += (
+            "\n\nSTRICT RULE VIOLATION: your previous draft went off-subject. "
+            "These items have nothing to do with THIS POST'S SUBJECT and were "
+            "rejected:\n- " + "\n- ".join(off_topic)
+            + "\n\nRewrite EVERY item so it is specifically about THIS "
+            "POST'S SUBJECT. No generic self-care items that could appear in "
+            "any checklist.")
     body = {
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
@@ -956,24 +1115,33 @@ def main():
             intro = items = tags = None
             avoid = None
             hard_list = None
-            for _ in range(3):         # retry if it repeats or is hard to read
+            off_list = None
+            for _ in range(3):  # retry if it repeats, drifts, or is hard
                 try:
                     intro, items, tags = gemini_draft(args.model, api_key,
                                                       recent, topic=theme,
                                                       avoid=avoid,
-                                                      hard_words=hard_list)
+                                                      hard_words=hard_list,
+                                                      off_topic=off_list)
                 except RuntimeError as e:
                     print(f"Gemini failed: {e}", file=sys.stderr)
                     intro = items = None
                     break
                 hard = find_hard_words(intro + " " + " ".join(items))
-                if not hard and not is_duplicate(seen, intro, items):
+                dups = find_duplicate_items(items, seen)
+                off = off_theme_items(items, THEMES[theme]["keywords"])
+                if not hard and not dups \
+                        and len(off) <= len(items[:-1]) // 3:
                     break
                 if hard:
                     print(f"(rejected: hard words {hard})", file=sys.stderr)
                     hard_list = hard
+                elif dups:
+                    print("(rejected: repeats past posts)", file=sys.stderr)
+                    avoid = dups
                 else:
-                    avoid = items
+                    print(f"(rejected: off-subject {off})", file=sys.stderr)
+                    off_list = off
                 intro = items = None
             if intro is None:
                 print("Falling back to local draft.\n", file=sys.stderr)
