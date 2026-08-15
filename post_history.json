@@ -405,5 +405,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-08-15T12:21:29",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "anxiety",
+    "intro": "the “why is my chest holding its breath” checklist",
+    "items": [
+      "did you drink coffee on an empty stomach again",
+      "are your shoulders up by your ears right now",
+      "are you clenching your jaw like you’re mad at it",
+      "are you holding your breath while scrolling",
+      "did you just read a text that made your heart jump",
+      "when was the last time you stood up and stretched",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "anxietyrelief",
+      "chesttightness",
+      "breathe",
+      "stressrelief"
+    ]
   }
 ]
