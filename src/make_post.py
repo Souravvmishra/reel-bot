@@ -77,10 +77,12 @@ WRAP_WIDTH    = 596         # max text width before wrapping (tuned to reference
 
 
 def font(size, bold=False):
+    """Load the DejaVu TrueType font at `size` (bold variant optional)."""
     return ImageFont.truetype(DEJAVU_B if bold else DEJAVU, size)
 
 
 def diag_gradient(w, h, c1, c2):
+    """Diagonal two-color gradient image (the avatar background)."""
     img = Image.new("RGB", (w, h))
     px = img.load()
     for y in range(h):
@@ -152,6 +154,8 @@ def wrapped(draw, text, fnt, max_w):
 def make_post(output, username=DEFAULT_USERNAME, timestamp=DEFAULT_TIMESTAMP,
               intro=DEFAULT_INTRO, items=None, avatar_path=None, reel=False,
               reel_scale=1.3):
+    """Render the checklist card to `output`; with reel=True also write the
+    1080x1920 reel canvas at `<output stem>-reel.png`."""
     items = items or DEFAULT_ITEMS
     if timestamp is None:                     # auto: today's date, "15 Aug"
         today = datetime.date.today()

@@ -4,7 +4,7 @@ This is the ~20-minute setup you do **once**. After it's done, posting is one
 command:
 
 ```bash
-python3 content_agent.py --post --video-url "https://your-host/post-reel.mp4"
+python3 src/content_agent.py --post --video-url "https://your-host/post-reel.mp4"
 ```
 
 Everything here uses only the official Meta/Instagram Graph API — no password
@@ -131,7 +131,7 @@ You can use either path — they produce the same kind of `EAAG...` token.
   ```bash
   echo 'FB_APP_ID=your_app_id' >> .env
   echo 'FB_APP_SECRET=your_app_secret' >> .env
-  python3 long_live_token.py --write      # reads the short-lived token from IG_ACCESS_TOKEN
+  python3 src/long_live_token.py --write      # reads the short-lived token from IG_ACCESS_TOKEN
   ```
 
   This prints the long-lived token and (with `--write`) saves it to `.env`
@@ -143,19 +143,19 @@ You can use either path — they produce the same kind of `EAAG...` token.
 
 ```bash
 # 1. Token + account + permissions check (read-only, nothing is posted):
-python3 post_instagram.py --check
+python3 src/post_instagram.py --check
 
 # 2. Render this week's reel:
-python3 content_agent.py --video
+python3 src/content_agent.py --video
 
 # 3. Host the reel at a public URL (needs GH_REPO/GH_TOKEN in .env):
-python3 upload_reel.py                    # -> prints https://raw.githubusercontent.com/....mp4
+python3 src/upload_reel.py                    # -> prints https://raw.githubusercontent.com/....mp4
 
 #    Confirm the URL serves the file (upload_reel.py already waits for 200):
-curl -I "$(python3 upload_reel.py)"      # want HTTP 200
+curl -I "$(python3 src/upload_reel.py)"      # want HTTP 200
 
 # 4. See the exact API calls that will be made, without posting:
-python3 post_instagram.py --video-url "$(python3 upload_reel.py)" --dry-run
+python3 src/post_instagram.py --video-url "$(python3 src/upload_reel.py)" --dry-run
 ```
 
 ## Step 8 — Post
@@ -163,13 +163,13 @@ python3 post_instagram.py --video-url "$(python3 upload_reel.py)" --dry-run
 One command end to end (upload + generate + publish):
 
 ```bash
-python3 content_agent.py --post --video-url "$(python3 upload_reel.py)"
+python3 src/content_agent.py --post --video-url "$(python3 src/upload_reel.py)"
 ```
 
 or with an already-hosted URL:
 
 ```bash
-python3 content_agent.py --post --video-url "https://your-host/post-reel.mp4"
+python3 src/content_agent.py --post --video-url "https://your-host/post-reel.mp4"
 ```
 
 It makes the 4 official Graph API calls (resolve account → create the REELS

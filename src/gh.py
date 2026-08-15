@@ -20,6 +20,9 @@ API = "https://api.github.com"
 
 
 def _req(method, url, token, body=None):
+    """One GitHub REST call; body is JSON-serialized when given. Returns
+    the parsed JSON, or None for a 204 (successful DELETE). Raises
+    HTTPError with the plain status for the caller to interpret."""
     headers = {
         "Authorization": f"Bearer {token}",
         "Accept": "application/vnd.github+json",
@@ -35,6 +38,7 @@ def _req(method, url, token, body=None):
 
 
 def api_error(e):
+    """Human-readable one-liner from a GitHub API HTTPError body."""
     try:
         body = json.loads(e.read().decode())
         return f"GitHub API error: {body.get('message', 'unknown')}"

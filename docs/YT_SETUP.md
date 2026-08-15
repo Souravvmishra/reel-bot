@@ -3,8 +3,8 @@
 The ~10-minute setup you do **once**. After it's done, posting is one command:
 
 ```bash
-python3 content_agent.py --youtube            # generate + render + upload
-python3 content_agent.py --post --youtube     # Instagram AND YouTube in one run
+python3 src/content_agent.py --youtube            # generate + render + upload
+python3 src/content_agent.py --post --youtube     # Instagram AND YouTube in one run
 ```
 
 Everything uses only the official **YouTube Data API v3** with OAuth 2.0 —
@@ -63,7 +63,7 @@ echo 'YT_CLIENT_SECRET=GOCSPX-...' >> .env
 ## Step 6 — One-time login
 
 ```bash
-python3 post_youtube.py --auth
+python3 src/post_youtube.py --auth
 ```
 
 A browser opens Google's consent screen → approve it. The script catches the
@@ -79,7 +79,7 @@ Run this once; the refresh token lasts until you revoke it.
 ## Step 7 — Verify
 
 ```bash
-python3 post_youtube.py --check
+python3 src/post_youtube.py --check
 ```
 
 Prints the token expiry, granted scopes, and your channel name. It posts
@@ -89,10 +89,10 @@ nothing.
 
 ```bash
 # YouTube only
-python3 content_agent.py --youtube
+python3 src/content_agent.py --youtube
 
 # Instagram + YouTube in one run (IG still needs IG_ACCESS_TOKEN, etc.)
-python3 content_agent.py --post --youtube
+python3 src/content_agent.py --post --youtube
 ```
 
 Defaults:
@@ -108,7 +108,7 @@ Defaults:
 
 | Symptom | Fix |
 |---------|-----|
-| `token refresh failed` | The refresh token was revoked — re-run `python3 post_youtube.py --auth`. |
+| `token refresh failed` | The refresh token was revoked — re-run `python3 src/post_youtube.py --auth`. |
 | `token exchange failed: invalid_client` | `YT_CLIENT_ID` / `YT_CLIENT_SECRET` don't match the Desktop app — re-copy from Credentials. |
 | `Access blocked` / consent error | You're not a test user of the project — add your account in Step 3. |
 | `upload init failed: ... quota` | The daily `videos.insert` bucket (100 uploads/day) is exhausted, or the project is out of its 10,000-unit general pool — retry tomorrow or check the Quotas page in the API console. |

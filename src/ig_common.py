@@ -19,15 +19,36 @@ import urllib.request
 FB_HOST = "https://graph.facebook.com/v21.0"
 IG_HOST = "https://graph.instagram.com/v21.0"
 
+# Source files live in src/, one level under the project root (where the
+# shared artifacts live: post-reel.mp4, post_history.json, audio/, ...).
+HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(HERE)
+
+
+def project_path(*parts):
+    """Join paths under the project root, independent of the CWD the script
+    is launched from (running from a subdir must not lose the artifacts)."""
+    return os.path.join(ROOT, *parts)
+
 
 def load_env_file(path=".env"):
     """Load KEY=VALUE lines from a local .env into os.environ.
 
     Existing environment variables win (setdefault) and values may be
-    quoted with ' or " — both are stripped. Missing file is a no-op.
+    quoted with ' or " — both are stripped. Missing file is a no-op. The
+    path is resolved relative to the CWD first, then the project root, so
+    scripts keep working no matter which directory they're launched from.
     """
-    if not os.path.exists(path):
-        return
+    candidates = [path] if os.path.isabs(path) else \
+        [path, os.path.join(ROOT, path)]
+    for p in candidates:
+        if os.path.exists(p):
+            return _load_into(p)
+    return None
+
+
+def _load_into(path):
+    """Read one .env file's KEY=VALUE lines into os.environ (setdefault)."""
     with open(path, encoding="utf-8") as f:
         for line in f:
             line = line.strip()
@@ -46,6 +67,23 @@ def api_host(token):
     graph.facebook.com. Sending one to the wrong host gets error 190.
     """
     return IG_HOST if token.startswith("IGAA") else FB_HOST
+
+
+def set_env(path, key, value):
+    """Add or replace a ``KEY=VALUE`` line in a .env file.
+
+    Preserves every other line (including comments and blank lines) and
+    only touches the one matching ``key=``. Shared by long_live_token.py
+    and post_youtube.py, which both save their tokens this way.
+    """
+    lines = []
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
+            lines = f.read().splitlines()
+    lines = [ln for ln in lines if not ln.startswith(key + "=")]
+    lines.append(f"{key}={value}")
+    with open(path, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines) + "\n")
 
 
 def format_api_error(e):

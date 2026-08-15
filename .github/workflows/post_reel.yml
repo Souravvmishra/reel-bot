@@ -24,7 +24,7 @@
 # used if the primary is out of quota), IG_ACCESS_TOKEN, IG_USER_ID,
 # GH_REPO, GH_TOKEN, YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN.
 # GH_TOKEN needs Contents read/write on GH_REPO; the YT_* secrets come
-# from the one-time Google login (see YT_SETUP.md - run
+# from the one-time Google login (see docs/YT_SETUP.md - run
 # post_youtube.py --auth locally to get YT_REFRESH_TOKEN).
 name: post-reel
 
@@ -70,7 +70,7 @@ jobs:
         # YouTube (the Data API accepts a direct file upload, so no
         # hosting needed there).
         run: |
-          python3 content_agent.py --post --youtube
+          python3 src/content_agent.py --post --youtube
 
       # Push the updated post_history.json back so the subject-rotation
       # memory (last 5 posts) survives from one scheduled run to the next.

@@ -14,11 +14,11 @@ Endpoints:
          ?no_audio=true              render a silent reel (no local music)
          ?theme=<topic>              pin the checklist subject
 
-Needs env vars (see IG_SETUP.md): API_KEY, GOOGLE_API_KEY,
+Needs env vars (see docs/IG_SETUP.md): API_KEY, GOOGLE_API_KEY,
 IG_ACCESS_TOKEN, IG_USER_ID, GH_REPO, GH_TOKEN.  (AUDIO_PATH optional.)
 
 Run locally:
-    .venv/bin/uvicorn post_api:app --port 8787
+    .venv/bin/uvicorn post_api:app --app-dir src --port 8787
 
 Deploy (free): see Dockerfile + render.yaml, or skip the server entirely
 and use .github/workflows/post_reel.yml — a GitHub Actions schedule that
@@ -42,7 +42,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 CONTENT_AGENT = os.path.join(HERE, "content_agent.py")
 UPLOAD_REEL = os.path.join(HERE, "upload_reel.py")
 POST_IG = os.path.join(HERE, "post_instagram.py")
-HISTORY = os.path.join(HERE, "post_history.json")
+HISTORY = os.path.join(os.path.dirname(HERE), "post_history.json")
 
 # Step timeouts: generous, since fresh Gemini drafts + video encode + IG
 # processing can each take a while.
@@ -58,6 +58,7 @@ API_KEY = os.environ.get("API_KEY", "")
 
 
 def _require_key(x_api_key):
+    """Constant-time check of the X-API-Key header against API_KEY."""
     if not API_KEY:
         raise HTTPException(503, "server misconfigured: API_KEY not set")
     if not x_api_key or not secrets.compare_digest(x_api_key, API_KEY):
@@ -75,6 +76,7 @@ def _run(cmd, timeout):
 
 
 def _check(proc, step):
+    """Raise a 500 with a clean message if a pipeline step exited non-zero."""
     if proc.returncode != 0:
         err = (proc.stderr or proc.stdout).strip().splitlines()
         raise HTTPException(500, f"{step} failed: {err[-1] if err else '?'}")

@@ -4,12 +4,12 @@ Post the reel to Instagram using the OFFICIAL Instagram Graph API.
 No unofficial libraries, no account-password login - just the sanctioned
 Meta API with an access token.
 
-One-time setup (about 15 minutes, do it once — full guide in IG_SETUP.md):
+One-time setup (about 15 minutes, do it once — full guide in docs/IG_SETUP.md):
 
   1. Your Instagram must be a Business or Creator account.
   2. It must be linked to a Facebook Page you manage.
   3. Create a Business app at https://developers.facebook.com/apps with
-     the Instagram product, then generate an access token (see IG_SETUP.md
+     the Instagram product, then generate an access token (see docs/IG_SETUP.md
      step 6 for the two token paths: the new dashboard IGAA tokens or the
      Graph API Explorer EAAG tokens).
   4. The reel must be reachable at a PUBLIC URL - the API downloads the
@@ -52,7 +52,7 @@ def check_token(g, user_id=None):
               f"(id {me.get('id', '?')}, {me.get('account_type', '?')})")
         if not user_id:
             print("  NOTE: add IG_USER_ID to .env - this token type can't "
-                  "auto-find it (see IG_SETUP.md)")
+                  "auto-find it (see docs/IG_SETUP.md)")
         limit = g.get(f"{user_id or me.get('id')}/content_publishing_limit",
                       {})
         used = limit.get("data", [{}])[0].get("quota_usage", "?")
@@ -231,7 +231,7 @@ def main():
     if token.startswith("IGAA") and not user_id:
         print("Error: this Instagram token can't auto-find your IG user id."
               " Add it to .env:")
-        print("  IG_USER_ID=<your ig user id>   (see IG_SETUP.md step 6)")
+        print("  IG_USER_ID=<your ig user id>   (see docs/IG_SETUP.md step 6)")
         sys.exit(1)
 
     if not args.video_url:
@@ -270,6 +270,7 @@ def main():
 
 
 def run():
+    """Entry wrapper: convert any RuntimeError into a clean stderr exit."""
     try:
         main()
     except RuntimeError as e:

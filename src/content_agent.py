@@ -4,19 +4,19 @@ Content agent — writes the text for self-care / relatable checklist posts
 (the "why is my life so bad" genre) and hands it to make_post.py to render.
 
 Usage:
-    python3 content_agent.py --video                   # everything, one line
-    python3 content_agent.py --post                    # ...and post it to IG
-    python3 content_agent.py --youtube                 # ...and post it to YouTube
-    python3 content_agent.py --post --youtube          # both, in one run
-    python3 content_agent.py                            # one random draft
-    python3 content_agent.py --theme sleep              # draft for a topic
-    python3 content_agent.py --list-themes              # show available topics
-    python3 content_agent.py --count 3                  # three drafts at once
-    python3 content_agent.py --seed 7                   # reproducible draft
-    python3 content_agent.py --agent local              # offline drafts
-    python3 content_agent.py --render --reel            # also render images
-    python3 content_agent.py --show-history             # see the last posts
-    python3 content_agent.py --clear-history            # start over
+    python3 src/content_agent.py --video                   # everything, one line
+    python3 src/content_agent.py --post                    # ...and post it to IG
+    python3 src/content_agent.py --youtube                 # ...and post it to YouTube
+    python3 src/content_agent.py --post --youtube          # both, in one run
+    python3 src/content_agent.py                           # one random draft
+    python3 src/content_agent.py --theme sleep             # draft for a topic
+    python3 src/content_agent.py --list-themes             # show available topics
+    python3 src/content_agent.py --count 3                 # three drafts at once
+    python3 src/content_agent.py --seed 7                  # reproducible draft
+    python3 src/content_agent.py --agent local             # offline drafts
+    python3 src/content_agent.py --render --reel           # also render images
+    python3 src/content_agent.py --show-history            # see the last posts
+    python3 src/content_agent.py --clear-history           # start over
 
 Post history:
     Rendered posts are recorded in post_history.json. The agent remembers the
@@ -40,7 +40,7 @@ import sys
 import urllib.error
 import urllib.request
 
-from ig_common import load_env_file
+from ig_common import ROOT, load_env_file, project_path
 
 # ---------------------------------------------------------------------------
 # TOPICS — each is a different checklist SUBJECT with its own hooks and items.
@@ -547,11 +547,12 @@ def generate(theme, rng, max_items=7, used_intros=None, used_items=None):
     return intro, items
 
 
-HISTORY_PATH = "post_history.json"
+HISTORY_PATH = project_path("post_history.json")
 
-# Default music for the reel video (used when --video is given without --audio).
-DEFAULT_AUDIO = ("/home/sourav/Downloads/Video by shu_bruh_ "
-                 "[DLwSbs4N06w].mp3")
+# Default music for the reel video (used when --video is given without
+# --audio). Lives in the repo's audio/ dir, committed alongside the code,
+# so the pipeline works from anywhere (override with AUDIO_PATH in .env).
+DEFAULT_AUDIO = os.path.join(ROOT, "audio", "reel.mp3")
 
 # Fallback caption hashtags (no "#" prefix) - used when Gemini doesn't
 # return its own, or in local-agent mode. With the Gemini agent, hashtags
@@ -568,6 +569,7 @@ CTA = (
 
 
 def load_history(path):
+    """Read the post-history JSON (a list of post dicts); [] on any error."""
     try:
         with open(path, encoding="utf-8") as f:
             data = json.load(f)
@@ -577,11 +579,13 @@ def load_history(path):
 
 
 def save_history(path, history):
+    """Persist the post-history JSON (kept human-readable for diffing)."""
     with open(path, "w", encoding="utf-8") as f:
         json.dump(history, f, indent=2, ensure_ascii=False)
 
 
 def _norm(s):
+    """Lowercase + strip all non-alphanumerics; used for exact-match checks."""
     return "".join(ch for ch in s.lower() if ch.isalnum())
 
 
@@ -622,6 +626,7 @@ def content_tokens(text):
 
 
 def _ngrams(tokens, n):
+    """Set of length-`n` character-gram tuples of a token list."""
     return {tuple(tokens[i:i + n]) for i in range(len(tokens) - n + 1)}
 
 
@@ -740,6 +745,7 @@ def find_hard_words(text):
 
 def print_draft(i, source, intro, items, subject=None, tags=None,
                 width=58):
+    """Pretty-print one draft to the terminal (hook, bullets, tags)."""
     label = THEMES[source]["label"] if source in THEMES else source
     print("━" * width)
     print(f"DRAFT {i}  · source: {label}")
@@ -941,7 +947,7 @@ def post_to_youtube(intro, items, tags, title=None, description=None,
     YouTube accepts a direct file upload, so no hosted URL is needed."""
     here = os.path.dirname(os.path.abspath(__file__))
     cmd = [sys.executable, os.path.join(here, "post_youtube.py"),
-           "--file", os.path.join(here, "post-reel.mp4"),
+           "--file", project_path("post-reel.mp4"),
            "--title", title or intro,
            "--description", description or build_caption(intro, tags),
            "--privacy", privacy]
@@ -960,7 +966,7 @@ def make_video(audio, audio_start):
     """Re-encode the reel MP4 with audio (make_video.py)."""
     here = os.path.dirname(os.path.abspath(__file__))
     # imageio-ffmpeg lives in .venv, so run it with that interpreter
-    venv_py = os.path.join(here, ".venv", "bin", "python")
+    venv_py = os.path.join(ROOT, ".venv", "bin", "python")
     py = venv_py if os.path.exists(venv_py) else sys.executable
     cmd = [py, os.path.join(here, "make_video.py"),
            "--audio", audio, "--audio-start", str(audio_start),
@@ -970,6 +976,7 @@ def make_video(audio, audio_start):
 
 
 def render(args, intro, items):
+    """Render a draft to post.png (and post-reel.png with --reel)."""
     here = os.path.dirname(os.path.abspath(__file__))
     cmd = [sys.executable, os.path.join(here, "make_post.py"),
            "--intro", intro]
@@ -1020,7 +1027,7 @@ def main():
                    help="like --video, then publish the reel to YouTube via "
                         "the Data API v3 (needs YT_CLIENT_ID, "
                         "YT_CLIENT_SECRET, YT_REFRESH_TOKEN in .env - see "
-                        "YT_SETUP.md)")
+                        "docs/YT_SETUP.md)")
     p.add_argument("--yt-title", default=None,
                    help="(with --youtube) video title (default: the hook "
                         "line)")
@@ -1239,7 +1246,7 @@ def main():
                 print("Done: reel posted to YouTube.")
         else:
             print("Next step (add your audio):")
-            print("  .venv/bin/python make_video.py --audio song.mp3 "
+            print("  .venv/bin/python src/make_video.py --audio song.mp3 "
                   "--audio-start 3.89 --zoom 0 --no-fade")
 
 

@@ -47,7 +47,7 @@ def main():
     token = os.environ.get("GH_TOKEN")
     if not repo or not token:
         print("Error: hosting needs GH_REPO (owner/repo) and GH_TOKEN in "
-              ".env (see IG_SETUP.md).", file=sys.stderr)
+              ".env (see docs/IG_SETUP.md).", file=sys.stderr)
         sys.exit(1)
     if not os.path.exists(args.file):
         print(f"Error: {args.file} not found - render it first with "

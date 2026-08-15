@@ -11,7 +11,7 @@ API calls it makes (all official):
   GET  /{media-id}/comments             list comments
   POST /{comment-id}/replies            reply with a random word
 
-Needs in .env: IG_ACCESS_TOKEN and IG_USER_ID (see IG_SETUP.md).
+Needs in .env: IG_ACCESS_TOKEN and IG_USER_ID (see docs/IG_SETUP.md).
 Works in Development mode: the comments endpoints just need
 instagram_manage_comments granted for your own account.
 
@@ -46,6 +46,7 @@ STATE_PATH = "comment_state.json"
 
 
 def ts():
+    """Current wall-clock time as HH:MM:SS for log lines."""
     return datetime.datetime.now().strftime("%H:%M:%S")
 
 
@@ -62,6 +63,7 @@ def load_state(path):
 
 
 def save_state(path, state):
+    """Persist the replied-comment map so a comment is never answered twice."""
     with open(path, "w", encoding="utf-8") as f:
         json.dump(state, f, indent=2, ensure_ascii=False)
 
@@ -138,7 +140,7 @@ def main():
     user_id = os.environ.get("IG_USER_ID")
     if not token or not user_id:
         print("Missing IG_ACCESS_TOKEN and/or IG_USER_ID in .env "
-              "(see IG_SETUP.md step 6).", file=sys.stderr)
+              "(see docs/IG_SETUP.md step 6).", file=sys.stderr)
         sys.exit(1)
 
     if args.reset and os.path.exists(args.state):

@@ -15,7 +15,7 @@ Flow:
      Shorts URL.
   3. --check: read-only - verify the credentials, print scopes + channel.
 
-One-time setup (about 10 minutes, do it once - full guide in YT_SETUP.md):
+One-time setup (about 10 minutes, do it once - full guide in docs/YT_SETUP.md):
   1. Google Cloud Console -> create a project.
   2. Enable the "YouTube Data API v3".
   3. OAuth consent screen -> External -> add yourself as a test user.
@@ -43,7 +43,7 @@ import urllib.parse
 import urllib.request
 import webbrowser
 
-from ig_common import load_env_file
+from ig_common import load_env_file, set_env
 
 AUTH_URL = "https://accounts.google.com/o/oauth2/v2/auth"
 TOKEN_URL = "https://oauth2.googleapis.com/token"
@@ -205,18 +205,6 @@ def auth_flow(client_id, client_secret):
                          redirect_uri)
 
 
-def save_env(path, key, value):
-    """Add or replace a KEY=VALUE line in a .env file."""
-    lines = []
-    if os.path.exists(path):
-        with open(path, encoding="utf-8") as f:
-            lines = f.read().splitlines()
-    lines = [ln for ln in lines if not ln.startswith(key + "=")]
-    lines.append(f"{key}={value}")
-    with open(path, "w", encoding="utf-8") as f:
-        f.write("\n".join(lines) + "\n")
-
-
 # ---------------------------------------------------------------------------
 # upload + status
 # ---------------------------------------------------------------------------
@@ -356,7 +344,7 @@ def main():
 
     if not client_id or not client_secret:
         print("Missing YT_CLIENT_ID / YT_CLIENT_SECRET in .env "
-              "(see YT_SETUP.md).", file=sys.stderr)
+              "(see docs/YT_SETUP.md).", file=sys.stderr)
         sys.exit(1)
 
     if args.auth:
@@ -365,7 +353,7 @@ def main():
         except RuntimeError as e:
             print(f"Error: {e}", file=sys.stderr)
             sys.exit(1)
-        save_env(".env", "YT_REFRESH_TOKEN", refresh)
+        set_env(".env", "YT_REFRESH_TOKEN", refresh)
         print("Saved YT_REFRESH_TOKEN to .env - you're set.")
         print("Verify with:  python3 post_youtube.py --check")
         return

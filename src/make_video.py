@@ -31,6 +31,7 @@ def audio_duration(path):
 
 
 def png_size(path):
+    """Read a PNG's (width, height) from its header without decoding."""
     with open(path, "rb") as f:
         head = f.read(24)
     w, h = struct.unpack(">II", head[16:24])

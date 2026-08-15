@@ -3,7 +3,7 @@
 Exchange a short-lived Graph API token (from the Graph API Explorer) for a
 long-lived one (~60 days), using the official fb_exchange_token endpoint.
 
-The Explorer token you generate in Step 6 of IG_SETUP.md lasts ~1 hour. This
+The Explorer token you generate in Step 6 of docs/IG_SETUP.md lasts ~1 hour. This
 helper turns it into a ~60-day token so you don't regenerate it constantly.
 
 Needs the app id and secret (App dashboard -> App settings -> Basic):
@@ -26,25 +26,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-from ig_common import FB_HOST, format_api_error, load_env_file
-
-
-def write_env(path, key, value):
-    """Replace or append key=value in a .env file, preserving other lines."""
-    lines = []
-    replaced = False
-    if os.path.exists(path):
-        with open(path, encoding="utf-8") as f:
-            lines = f.readlines()
-    with open(path, "w", encoding="utf-8") as f:
-        for line in lines:
-            if line.startswith(key + "="):
-                f.write(f"{key}={value}\n")
-                replaced = True
-            else:
-                f.write(line)
-        if not replaced:
-            f.write(f"{key}={value}\n")
+from ig_common import FB_HOST, format_api_error, load_env_file, set_env
 
 
 def main():
@@ -69,7 +51,7 @@ def main():
 
     if not token:
         print("Missing token. Either pass --token EAAG... or set "
-              "IG_ACCESS_TOKEN in .env (see IG_SETUP.md step 6).")
+              "IG_ACCESS_TOKEN in .env (see docs/IG_SETUP.md step 6).")
         sys.exit(1)
     if not app_id or not secret:
         print("Missing app id/secret. Add to .env:")
@@ -103,7 +85,7 @@ def main():
     print(f"long-lived token (expires in ~{days:.0f} days):")
     print(long_token)
     if args.write:
-        write_env(".env", "IG_ACCESS_TOKEN", long_token)
+        set_env(".env", "IG_ACCESS_TOKEN", long_token)
         print("\nSaved to .env as IG_ACCESS_TOKEN.")
         print("Verify with:  python3 post_instagram.py --check")
 
