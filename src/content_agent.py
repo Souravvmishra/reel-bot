@@ -522,6 +522,63 @@ CLOSERS = [
     "or none of the above and you just need a hug",
 ]
 
+# Fallback share call-to-action (used when Gemini doesn't supply its own,
+# or in local-agent mode). Voice matches the posts: lowercase, friendly,
+# tells the viewer to pass the checklist on to someone who needs it.
+DEFAULT_CTA = "send this to the friend who needs to see it"
+
+# Lines that are never theme content and must be kept out of the
+# off-theme / duplicate checks: the closers and the share CTA.
+NON_CONTENT = frozenset(CLOSERS) | {DEFAULT_CTA}
+
+
+def content_items(items):
+    """The real checklist lines of a draft: drops the genre closer ("etc",
+    always last), the share CTA, and any stray CTA lines. Everything else
+    is judged for theme/dups."""
+    body = list(items)
+    while body and body[-1] in NON_CONTENT:
+        body.pop()                        # trailing "etc" / closers
+    if body and (body[-1] == DEFAULT_CTA or _looks_like_cta(body[-1])):
+        body.pop()                        # the share CTA before it
+    return [it for it in body if it not in NON_CONTENT]
+
+
+def _tail_normalize(items):
+    """Guarantee the checklist ends in `[..., <share CTA>, "etc"]`.
+
+    Rebuilds the tail defensively: prunes trailing genre lines (a stray
+    trailing closer or the default CTA), keeps a subject-specific CTA the
+    model wrote for the SECOND-TO-LAST item (the prompt asks for one), and
+    falls back to the shared DEFAULT_CTA when the model didn't supply its
+    own. "etc" is always the very last line."""
+    tail = list(items)
+    # 1. drop trailing genre lines (closers incl. "etc", DEFAULT_CTA)
+    while tail and tail[-1] in NON_CONTENT:
+        tail.pop()
+    # 2. the model may have written its own subject-specific CTA (just
+    #    before the "etc" we just pruned) - keep it if it reads like one
+    custom_cta = None
+    if tail and _looks_like_cta(tail[-1]):
+        custom_cta = tail.pop()
+    # 3. strip any "etc" that preceded that CTA (we re-add it exactly once)
+    if tail and tail[-1] == "etc":
+        tail.pop()
+    # 4. rebuild: CTA then closer, exactly once each
+    tail.append(custom_cta or DEFAULT_CTA)
+    tail.append("etc")
+    return tail
+
+
+def _looks_like_cta(line):
+    """Best-effort heuristic for "is this final line a share call-to-action"
+    (as opposed to a real checklist item). CTA lines are imperative and
+    start with send/share/tag/forward or target someone."""
+    low = line.strip().lower()
+    if re.search(r"\b(send|share|tag|forward|pass)\b\s", low):
+        return True
+    return bool(re.search(r"(friend|someone|anyone).*(needs|who)", low))
+
 
 # ---------------------------------------------------------------------------
 
@@ -543,6 +600,7 @@ def generate(theme, rng, max_items=7, used_intros=None, used_items=None):
     lo = min(5, hi)
     n = rng.randint(lo, hi)
     items = rng.sample(pool, n)
+    items.append(DEFAULT_CTA)
     items.append(rng.choice(CLOSERS))
     return intro, items
 
@@ -665,18 +723,19 @@ def _item_is_stale(cand, hist):
 
 
 def find_duplicate_items(items, seen):
-    """History items too close to `items` (the closer is ignored).
+    """History items too close to `items` (closers and the share CTA are
+    ignored).
 
     Returns the offending lines so they can be fed back to the writer as
     "avoid these" - much better feedback than a bare reject.
     """
     hits = []
-    for cand in items[:-1]:
+    for cand in content_items(items):
         for raw in REPEATED_BITS:
             if re.search(raw, cand, re.IGNORECASE):
                 hits.append(cand)
         for h in seen:
-            for hist in (h.get("items") or [])[:-1]:
+            for hist in content_items(h.get("items") or []):
                 if _item_is_stale(cand, hist):
                     hits.append(hist)
     return list(dict.fromkeys(hits))          # dedupe, keep order
@@ -691,9 +750,10 @@ def is_duplicate(seen, intro, items):
 
 
 def off_theme_items(items, keywords):
-    """Items that mention none of the theme's keywords at all - the closer
-    is ignored. Used to reject drafts that drifted off-subject."""
-    return [it for it in items[:-1]
+    """Items that mention none of the theme's keywords at all - the share
+    CTA and genre closers are ignored. Used to reject drafts that drifted
+    off-subject."""
+    return [it for it in content_items(items)
             if not any(k in it.lower() for k in keywords)]
 
 
@@ -771,6 +831,12 @@ Genre rules:
 - One hook line, dramatic or relatable, that ends in the word "checklist".
 - Then 6-8 short checklist items written in a gentle, slightly
   self-deprecating, relatable tone.
+- The SECOND-TO-LAST item is a short share call-to-action, in the same
+  voice: tell the viewer to send/tag/share this post with someone who needs
+  it, made specific to THIS POST'S SUBJECT when possible (e.g. "send this
+  to the friend who's sleeping less than you", "tag whoever this
+  describes"). Keep it one short, punchy line - never generic-sounding.
+- The LAST item is the genre signature: "etc".
 - All lowercase. Use curly apostrophes (\u2019) and curly quotes (\u201c \u201d).
 
 STRICT RULE - EASY READING (this is the MOST IMPORTANT rule, never break it):
@@ -806,7 +872,8 @@ items:
 - etc
 
 Return ONLY valid JSON with keys "intro" (string), "items" (array of
-strings, the last one being "etc"), and "hashtags" (array of 6-8 short
+strings - the SECOND-TO-LAST one is the share call-to-action, the LAST one
+is "etc"), and "hashtags" (array of 6-8 short
 lowercase Instagram hashtags WITHOUT the # symbol - mix 2-3 broad ones like
 checklist/selfcare/mentalhealth with tags specific to THIS POST'S SUBJECT;
 no spaces in any tag, all must relate to the post)."""
@@ -893,10 +960,10 @@ def gemini_draft(model, api_key, recent=None, topic=None, avoid=None,
             text = text.split("\n", 1)[1].rsplit("```", 1)[0].strip()
         parsed = json.loads(text)
         intro, items = parsed["intro"], list(parsed["items"])
-        if items and items[-1] != "etc":
-            items.append("etc")
         if not isinstance(intro, str) or not items:
             raise ValueError("unexpected shape")
+        # Normalize the tail: model may forget "etc" or the CTA line.
+        items = _tail_normalize(items)
         return intro, items, norm_tags(parsed.get("hashtags"))
     except (KeyError, ValueError, json.JSONDecodeError) as e:
         raise RuntimeError(f"Could not parse Gemini response: {e}") from e
@@ -970,7 +1037,7 @@ def make_video(audio, audio_start):
     py = venv_py if os.path.exists(venv_py) else sys.executable
     cmd = [py, os.path.join(here, "make_video.py"),
            "--audio", audio, "--audio-start", str(audio_start),
-           "--zoom", "0", "--no-fade"]
+           "--volume", "0.25", "--zoom", "0", "--no-fade"]
     print("rendering video:", " ".join(cmd), "\n")
     subprocess.run(cmd, check=True)
 

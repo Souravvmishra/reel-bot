@@ -52,6 +52,8 @@ def main():
     p.add_argument("--audio", default=None,
                    help="audio file (mp3/m4a/wav) to mux in; looped to fit "
                         "the clip")
+    p.add_argument("--volume", type=float, default=1.0,
+                   help="audio volume multiplier (0.5 = half, 1.0 = as-is)")
     p.add_argument("--audio-start", type=float, default=0.0,
                    help="start offset in seconds into the audio file "
                         "(e.g. 3.89 = last 8s of an ~11.9s track)")
@@ -93,13 +95,16 @@ def main():
     cmd += ["-vf", vf, "-t", str(args.seconds), "-r", str(args.fps),
             "-c:v", "libx264", "-movflags", "+faststart"]
     if args.audio:
-        cmd += ["-c:a", "aac", "-b:a", "192k", "-shortest"]
+        cmd += ["-c:a", "aac", "-b:a", "192k"]
+        if args.volume != 1.0:
+            cmd += ["-af", f"volume={args.volume}"]
+        cmd += ["-shortest"]
     cmd += [args.output]
     print(" ".join(cmd))
     subprocess.run(cmd, check=True)
     print(f"Wrote {args.output} ({args.seconds}s @ {args.fps}fps, "
           f"zoom={args.zoom}, fade={'on' if not args.no_fade else 'off'}, "
-          f"audio={args.audio or 'none'})")
+          f"audio={args.audio or 'none'}, volume={args.volume})")
 
 
 if __name__ == "__main__":
