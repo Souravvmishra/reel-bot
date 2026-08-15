@@ -23,6 +23,11 @@
 # GH_REPO, GH_TOKEN. GH_TOKEN needs Contents read/write on GH_REPO.
 name: post-reel
 
+# The save-history step pushes post_history.json back to THIS repo, so the
+# built-in GITHUB_TOKEN needs write access (public repos default to read).
+permissions:
+  contents: write
+
 on:
   workflow_dispatch:        # manual / API trigger
   schedule:
@@ -56,9 +61,11 @@ jobs:
 
       # Push the updated post_history.json back so the subject-rotation
       # memory (last 5 posts) survives from one scheduled run to the next.
+      # Uses the built-in GITHUB_TOKEN (write access via the workflow's
+      # permissions block) - no extra secret needed for this repo.
       - name: Save post history
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
           git config user.name "reel-bot"
           git config user.email "reel-bot@users.noreply.github.com"
@@ -67,5 +74,5 @@ jobs:
             echo "no history change"
           else
             git commit -m "post history: update rotation memory"
-            git push "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:${GITHUB_REF_NAME}
+            git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:${GITHUB_REF_NAME}
           fi
