@@ -20,7 +20,8 @@
 #   two cron lines below and post ~1h BEFORE the peak.
 #
 # One-time setup: add these repo secrets (Settings -> Secrets and
-# variables -> Actions): GOOGLE_API_KEY, IG_ACCESS_TOKEN, IG_USER_ID,
+# variables -> Actions): GOOGLE_API_KEY, GOOGLE_API_KEY_BACKUP (optional -
+# used if the primary is out of quota), IG_ACCESS_TOKEN, IG_USER_ID,
 # GH_REPO, GH_TOKEN, YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN.
 # GH_TOKEN needs Contents read/write on GH_REPO; the YT_* secrets come
 # from the one-time Google login (see YT_SETUP.md - run
@@ -54,6 +55,7 @@ jobs:
       - name: Generate + post the reel
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          GOOGLE_API_KEY_BACKUP: ${{ secrets.GOOGLE_API_KEY_BACKUP }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           GH_REPO: ${{ secrets.GH_REPO }}

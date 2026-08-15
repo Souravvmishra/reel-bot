@@ -692,6 +692,19 @@ def off_theme_items(items, keywords):
             if not any(k in it.lower() for k in keywords)]
 
 
+def _error_code(exc):
+    """HTTP status from a gemini_draft RuntimeError, or None."""
+    m = re.search(r"API error (\d+)", str(exc))
+    return int(m.group(1)) if m else None
+
+
+# API errors worth retrying with a different key: invalid key (400 when
+# the request itself is fine - which it always is here), auth failures,
+# quota exhaustion, and server hiccups. Anything else is the prompt's
+# fault and retrying with another key won't help.
+KEY_SWITCHABLE = {400, 401, 403, 429, 500, 502, 503, 504}
+
+
 def vowel_groups(w):
     """Count vowel groups in a word (a rough syllable proxy)."""
     n = 0
@@ -1090,12 +1103,18 @@ def main():
     used_intros = {h.get("intro") for h in history}
     recent_items = [it for h in recent for it in (h.get("items") or [])]
 
-    api_key = None
+    api_keys = None
     if args.agent == "gemini":
         load_env_file()
-        api_key = (os.environ.get("GOOGLE_API_KEY")
-                   or os.environ.get("GEMINI_API_KEY"))
-        if not api_key:
+        # Primary key first, then any backups - if the primary is out of
+        # quota or revoked, the run tries the next key before giving up.
+        api_keys = list(dict.fromkeys(k for k in (
+            os.environ.get("GOOGLE_API_KEY"),
+            os.environ.get("GOOGLE_API_KEY_BACKUP"),
+            os.environ.get("GEMINI_API_KEY"),
+            os.environ.get("GEMINI_API_KEY_BACKUP"),
+        ) if k))
+        if not api_keys:
             print("No Gemini API key found (set GOOGLE_API_KEY or "
                   "GEMINI_API_KEY). Falling back to local drafts.\n",
                   file=sys.stderr)
@@ -1116,17 +1135,25 @@ def main():
             avoid = None
             hard_list = None
             off_list = None
+            ki = 0
             for _ in range(3):  # retry if it repeats, drifts, or is hard
                 try:
-                    intro, items, tags = gemini_draft(args.model, api_key,
+                    intro, items, tags = gemini_draft(args.model, api_keys[ki],
                                                       recent, topic=theme,
                                                       avoid=avoid,
                                                       hard_words=hard_list,
                                                       off_topic=off_list)
                 except RuntimeError as e:
-                    print(f"Gemini failed: {e}", file=sys.stderr)
-                    intro = items = None
-                    break
+                    code = _error_code(e)
+                    if code in KEY_SWITCHABLE and ki + 1 < len(api_keys):
+                        print(f"Gemini key {ki + 1} failed (HTTP {code}); "
+                              f"trying the next key", file=sys.stderr)
+                        ki += 1
+                        continue
+                    # Not a key problem (e.g. malformed JSON from the model)
+                    # - retry the same prompt; the budget above limits it.
+                    print(f"Gemini attempt failed: {e}", file=sys.stderr)
+                    continue
                 hard = find_hard_words(intro + " " + " ".join(items))
                 dups = find_duplicate_items(items, seen)
                 off = off_theme_items(items, THEMES[theme]["keywords"])
