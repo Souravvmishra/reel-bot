@@ -599,7 +599,13 @@ def post_to_instagram(intro, video_url, tags):
         cmd += ["--cleanup-url", video_url]
     print("posting to instagram (official Graph API):",
           os.path.join(here, "post_instagram.py"), "\n")
-    subprocess.run(cmd, check=True)
+    try:
+        subprocess.run(cmd, check=True)
+    except subprocess.CalledProcessError as e:
+        err = (e.stderr or e.stdout or "").strip().splitlines()
+        print(f"Error: Instagram post failed: "
+              f"{err[-1] if err else 'unknown'}", file=sys.stderr)
+        sys.exit(1)
 
 
 def make_video(audio, audio_start):
@@ -664,7 +670,8 @@ def main():
                         "IG_ACCESS_TOKEN in .env)")
     p.add_argument("--video-url", default=None,
                    help="(with --post) PUBLIC https URL where post-reel.mp4 "
-                        "is hosted - the Graph API downloads it from there")
+                        "is hosted - the Graph API downloads it from there. "
+                        "Omit to auto-host the reel on GitHub.")
     p.add_argument("--audio", default=None,
                    help="(with --video) audio file for the reel (default: "
                         "AUDIO_PATH env var or the local default)")
@@ -689,14 +696,8 @@ def main():
     if args.post:                       # --post implies the whole pipeline
         args.video = True
         if not args.video_url:
-            print("Error: --post needs --video-url <public URL of the mp4> "
-                  "(the official API cannot read local files).")
-            print("Host post-reel.mp4 somewhere public first, e.g.:")
-            print("  python3 content_agent.py --video")
-            print("  # upload post-reel.mp4 to a public host, then:")
-            print("  python3 content_agent.py --post "
-                  "--video-url https://example.com/post-reel.mp4")
-            sys.exit(1)
+            print("(no --video-url given - the reel will be hosted on "
+                  "GitHub automatically)")
     if args.video:                      # --video implies the whole pipeline
         args.render = True
         args.reel = True
@@ -829,7 +830,22 @@ def main():
                 make_video(audio, args.audio_start)
                 print("Done: post-reel.mp4 updated with the new post.")
             if args.post:
-                post_to_instagram(last[0], args.video_url, last_tags)
+                url = args.video_url
+                if not url:
+                    # Self-contained: host the freshly made reel on GitHub.
+                    print("hosting the reel on GitHub ...")
+                    here = os.path.dirname(os.path.abspath(__file__))
+                    up = subprocess.run(
+                        [sys.executable, os.path.join(here, "upload_reel.py")],
+                        capture_output=True, text=True)
+                    if up.returncode != 0:
+                        err = (up.stderr or up.stdout).strip().splitlines()
+                        print(f"Error: auto-host failed: "
+                              f"{err[-1] if err else '?'}", file=sys.stderr)
+                        sys.exit(1)
+                    url = up.stdout.strip().splitlines()[-1]
+                    print(f"  hosted at {url}")
+                post_to_instagram(last[0], url, last_tags)
                 print("Done: reel posted to Instagram.")
         else:
             print("Next step (add your audio):")

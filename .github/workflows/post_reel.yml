@@ -49,9 +49,10 @@ jobs:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           GH_REPO: ${{ secrets.GH_REPO }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        # --post without --video-url auto-hosts the freshly made reel on
+        # GitHub (generate -> render -> encode -> host -> publish -> cleanup).
         run: |
-          python3 content_agent.py --post --no-audio \
-            --video-url "$(python3 upload_reel.py)"
+          python3 content_agent.py --post --no-audio
 
       # Push the updated post_history.json back so the subject-rotation
       # memory (last 5 posts) survives from one scheduled run to the next.

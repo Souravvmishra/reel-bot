@@ -310,5 +310,29 @@
       "introvertproblems",
       "gooutside"
     ]
+  },
+  {
+    "ts": "2026-08-15T14:33:23",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "friends",
+    "intro": "the “why does my phone feel so quiet” checklist",
+    "items": [
+      "did you leave a text on read because you felt tired",
+      "are you waiting for them to text first to prove they care",
+      "did you cancel plans and now you feel left out",
+      "have you actually heard a friend’s voice today",
+      "are you just scrolling through their photos instead of saying hi",
+      "did you hide in your room all day but wish someone would call",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "lonely",
+      "loneliness",
+      "adultfriendships",
+      "checkingin"
+    ]
   }
 ]
