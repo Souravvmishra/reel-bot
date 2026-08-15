@@ -357,5 +357,29 @@
       "stopcomparing",
       "mindset"
     ]
+  },
+  {
+    "ts": "2026-08-15T09:15:01",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "screens",
+    "intro": "the “my brain is just a puddle of screen time” checklist",
+    "items": [
+      "did you open this app right after closing it",
+      "is your phone actually warm in your hand",
+      "when was the last time you blinked",
+      "do you even remember why you unlocked your screen",
+      "can you look at something that doesn’t have a screen",
+      "are you scrolling just because you don’t want to do that one chore",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "doomscrolling",
+      "screentime",
+      "phoneaddiction",
+      "digitaldetox"
+    ]
   }
 ]
