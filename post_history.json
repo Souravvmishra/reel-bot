@@ -334,5 +334,28 @@
       "adultfriendships",
       "checkingin"
     ]
+  },
+  {
+    "ts": "2026-08-15T09:07:36",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "comparison",
+    "intro": "the “why does everyone else have their life sorted” checklist",
+    "items": [
+      "did you just spend twenty minutes looking at a stranger’s feed",
+      "are you comparing your messy bedroom to their perfect grid",
+      "did you forget that people only post when things are going well",
+      "are you feeling bad because someone from school got a new job",
+      "did you forget they also have bad days and feel lost",
+      "are you holding yourself to a standard that isn’t even real",
+      "etc"
+    ],
+    "hashtags": [
+      "selfcare",
+      "mentalhealth",
+      "comparison",
+      "checklist",
+      "stopcomparing",
+      "mindset"
+    ]
   }
 ]
