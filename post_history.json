@@ -474,5 +474,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-08-16T16:47:22",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "comparison",
+    "intro": "the “why is everyone else winning at life” checklist",
+    "items": [
+      "did you look at someone’s post and decide you’re failing",
+      "are you comparing your messy room to their nice pictures",
+      "did you forget they also cry in their car",
+      "do you think they have a secret guide to life",
+      "are you mad at yourself for not having it all figured out",
+      "send this to the friend who thinks everyone else is winning",
+      "etc"
+    ],
+    "hashtags": [
+      "selfcare",
+      "mentalhealth",
+      "comparison",
+      "impostersyndrome",
+      "checklist",
+      "reallife",
+      "notalone"
+    ]
   }
 ]
