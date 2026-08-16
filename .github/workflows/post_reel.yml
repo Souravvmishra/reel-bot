@@ -6,18 +6,19 @@
 #   upload the same file to YouTube -> cleanup.
 #
 # Two ways to trigger:
-#   1. On a schedule: TWICE a day at the two best posting windows (see
+#   1. On a schedule: THREE times a day at the posting windows (see
 #      below; cron is UTC).
 #   2. On demand: repo -> Actions -> "post-reel" -> Run workflow, or:
 #      curl -X POST -H "Authorization: Bearer <PAT>" \
 #        "https://api.github.com/repos/<owner>/<repo>/actions/workflows/post_reel.yml/dispatches" \
 #        -d '{"ref":"main"}'
 #
-# Posting times (2/day, tuned to 2026 engagement data):
+# Posting times (3/day, tuned to 2026 engagement data):
+#   - 03:30 UTC  -> 09:00 IST (India morning peak, 8-11am)
 #   - 12:00 UTC  -> 17:30 IST, 07:00 EST, 13:00 CET  (morning-US window)
 #   - 16:30 UTC  -> 22:00 IST, 11:30 EST, 17:30 CET  (evening peak)
 #   Once Instagram Insights shows your followers' active hours, tune the
-#   two cron lines below and post ~1h BEFORE the peak.
+#   three cron lines below and post ~1h BEFORE the peak.
 #
 # One-time setup: add these repo secrets (Settings -> Secrets and
 # variables -> Actions): GOOGLE_API_KEY, GOOGLE_API_KEY_BACKUP (optional -
@@ -36,8 +37,9 @@ permissions:
 on:
   workflow_dispatch:        # manual / API trigger
   schedule:
-    - cron: "0 12 * * *"    # daily 12:00 UTC
-    - cron: "30 16 * * *"   # daily 16:30 UTC
+    - cron: "30 3 * * *"     # daily 03:30 UTC (India morning peak)
+    - cron: "0 12 * * *"     # daily 12:00 UTC
+    - cron: "30 16 * * *"    # daily 16:30 UTC
 
 jobs:
   post:
