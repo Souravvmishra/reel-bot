@@ -451,5 +451,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-08-16T12:23:32",
+    "source": "local (fallback)",
+    "theme": "dating",
+    "intro": "the “i turn into a different person around them” checklist",
+    "items": [
+      "are you scared of rejection or of being seen",
+      "is every interaction a job interview in your head",
+      "have you smiled like a human instead of a mannequin",
+      "have you texted first or are you waiting forever",
+      "are you being yourself or a character you made up",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
