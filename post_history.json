@@ -521,5 +521,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-08-17T12:27:26",
+    "source": "local (fallback)",
+    "theme": "sleep",
+    "intro": "a quick “why am i tired at 3pm” checklist",
+    "items": [
+      "have you napped today and regretted it right away",
+      "did you wake up to an alarm or to dread",
+      "did you scroll for ‘five minutes’ at midnight (it was two hours)",
+      "did you sleep or just lie in the dark with your phone",
+      "what time did you actually go to bed (be honest)",
+      "have you been awake since 4am thinking about that thing",
+      "send this to the friend who needs to see it",
+      "and if you said no to all of these — take care of yourself"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
