@@ -616,5 +616,28 @@
       "lazyday",
       "relatable"
     ]
+  },
+  {
+    "ts": "2026-08-18T16:54:22",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "body",
+    "intro": "the “why did i make that noise when i stood up” checklist",
+    "items": [
+      "did you hurt your back today by literally just sneezing",
+      "are your knees making clicking sounds on the stairs",
+      "have you been sitting in a weird twist for two hours",
+      "does your shoulder hurt for absolutely no reason",
+      "did you just try to stretch and make everything worse",
+      "send this to a friend who groans when they get off the couch",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "bodyaches",
+      "backpain",
+      "growingold",
+      "stiffneck"
+    ]
   }
 ]
