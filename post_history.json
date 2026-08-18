@@ -570,5 +570,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-08-18T04:08:31",
+    "source": "local (fallback)",
+    "theme": "outside",
+    "intro": "a quick “why am i so pale and sad” checklist",
+    "items": [
+      "have you walked anywhere that isn’t to the fridge",
+      "when did you last leave your house for a non-essential reason",
+      "have you looked at a tree and felt something",
+      "is your vitamin d level a single digit",
+      "have you touched grass, literally",
+      "have you been outside in the last 48 hours",
+      "send this to the friend who needs to see it",
+      "and if you said no to all of these — take care of yourself"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
