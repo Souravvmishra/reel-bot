@@ -594,5 +594,27 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-08-18T12:28:49",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "gym",
+    "intro": "the “my gym clothes are now just pajamas” checklist",
+    "items": [
+      "did you put on workout pants just to sit on the couch",
+      "is your gym water bottle currently holding dust",
+      "did you pay your gym fee like it’s a donation",
+      "is your workout plan still just a screenshot in your phone",
+      "send this to the friend who’s also avoiding the gym",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "fitness",
+      "gymproblems",
+      "lazyday",
+      "relatable"
+    ]
   }
 ]
