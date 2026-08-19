@@ -54,6 +54,7 @@ THEMES = {
             "a quick “why do i feel like a zombie” checklist",
             "the “my brain is fried from my phone” checklist",
             "a quick “why does everything feel like too much” checklist",
+            "your eyes are dry and your thumb won’t stop. here’s a checklist",
         ],
         "items": [
             "how many hours of screen time did you actually clock today",
@@ -75,6 +76,7 @@ THEMES = {
         "intros": [
             "a quick “why is my bank account crying” checklist",
             "the “where did all my money go” checklist",
+            "if your bank app greets you with a sigh, here’s your checklist",
         ],
         "items": [
             "have you checked your balance (be brave)",
@@ -97,6 +99,7 @@ THEMES = {
         "intros": [
             "a quick “why does my room feel like a crime scene” checklist",
             "the “my space is a disaster” checklist",
+            "if your floor needs a search warrant, here’s your checklist",
         ],
         "items": [
             "are there more cups in your room than in your kitchen",
@@ -120,6 +123,7 @@ THEMES = {
             "a quick “why do i feel so disconnected” checklist",
             "the “everyone forgot about me” checklist",
             "a quick “why am i lonely despite having friends” checklist",
+            "your phone is quiet and it’s starting to feel personal. here’s a checklist",
         ],
         "items": [
             "have you texted someone back (they’re not mad, they’re waiting)",
@@ -142,6 +146,7 @@ THEMES = {
         "intros": [
             "a quick “why am i dreading monday” checklist",
             "the “my job is eating my soul” checklist",
+            "if sunday night already feels like punishment, here’s your checklist",
         ],
         "items": [
             "have you taken a real lunch break or eaten at your desk",
@@ -164,6 +169,7 @@ THEMES = {
         "intros": [
             "a quick “why does my body hurt” checklist",
             "the “i’m 25 and my back is 80” checklist",
+            "you cracked your neck and heard your ancestors groan. here’s a checklist",
         ],
         "items": [
             "have you stretched in the last 72 hours",
@@ -186,6 +192,7 @@ THEMES = {
         "intros": [
             "a quick “why am i tired at 3pm” checklist",
             "the “i slept 11 hours and i’m still exhausted” checklist",
+            "if your bed is a warm jail cell you can’t escape, here’s your checklist",
         ],
         "items": [
             "what time did you actually go to bed (be honest)",
@@ -208,6 +215,7 @@ THEMES = {
         "intros": [
             "a quick “why do i feel gross” checklist",
             "the “i haven’t showered and i’m fine with it (i’m not)” checklist",
+            "if you sniffed your shirt before deciding it was ok, here’s your checklist",
         ],
         "items": [
             "have you showered today (or this week)",
@@ -230,6 +238,7 @@ THEMES = {
         "intros": [
             "a quick “why am i so pale and sad” checklist",
             "the “i live indoors now” checklist",
+            "if your vitamin d is a rumor at this point, here’s your checklist",
         ],
         "items": [
             "have you seen the sun today (it’s still there)",
@@ -253,6 +262,7 @@ THEMES = {
             "a quick “why does my chest feel tight” checklist",
             "the “i’m anxious and i don’t know why” checklist",
             "a quick “why is my heart racing for no reason” checklist",
+            "if your chest is doing laps without your permission, here’s a checklist",
         ],
         "items": [
             "have you eaten or had water in the last six hours",
@@ -275,6 +285,7 @@ THEMES = {
             "a quick “why can’t my brain shut up” checklist",
             "the “i keep replaying that conversation” checklist",
             "a quick “why do i feel off” checklist",
+            "if your brain is replaying 2016 at 3am, here’s your checklist",
         ],
         "items": [
             "have you eaten today (hungry thoughts aren’t real thoughts)",
@@ -295,6 +306,7 @@ THEMES = {
         "intros": [
             "a quick “why does everyone have a better life than me” checklist",
             "the “everyone else has it together” checklist",
+            "if a stranger’s grid made you feel small today, here’s your checklist",
         ],
         "items": [
             "have you been comparing your behind-the-scenes to their highlight reel",
@@ -317,6 +329,7 @@ THEMES = {
         "intros": [
             "a quick “why am i so hangry” checklist",
             "the “i forgot to eat again” checklist",
+            "if your last meal was a coffee and a prayer, here’s your checklist",
         ],
         "items": [
             "have you eaten a meal that isn’t coffee",
@@ -340,6 +353,7 @@ THEMES = {
             "a quick “why does my marriage feel like a roommate situation” checklist",
             "the “we said forever and now we just coexist” checklist",
             "a quick “why are we married but lonely” checklist",
+            "if the most romantic thing in your house is the wifi, here’s your checklist",
         ],
         "items": [
             "when did you last go on an actual date with them",
@@ -362,6 +376,7 @@ THEMES = {
         "intros": [
             "a quick “why is my social life a desert” checklist",
             "the “i have no plans and it’s saturday” checklist",
+            "if your weekend highlight was a grocery run, here’s your checklist",
         ],
         "items": [
             "have you said yes to anything this month",
@@ -384,6 +399,7 @@ THEMES = {
         "intros": [
             "a quick “why can’t i talk to the opposite gender” checklist",
             "the “i turn into a different person around them” checklist",
+            "if you go full wax statue the second they walk in, here’s your checklist",
         ],
         "items": [
             "have you had a normal conversation without performing",
@@ -406,6 +422,7 @@ THEMES = {
         "intros": [
             "a quick “why am i having an existential crisis at 3am” checklist",
             "the “what is the point of any of this” checklist",
+            "if it’s 3am and you’re asking why anything exists, here’s a checklist",
         ],
         "items": [
             "have you eaten today (deep thoughts are hungry thoughts)",
@@ -428,6 +445,7 @@ THEMES = {
         "intros": [
             "a quick “why am i psychoanalyzing myself at 2am” checklist",
             "the “i diagnosed myself with everything” checklist",
+            "if one article turned you into a doctor, here’s your checklist",
         ],
         "items": [
             "have you read one article and now you’re a doctor",
@@ -450,6 +468,7 @@ THEMES = {
         "intros": [
             "a quick “why can’t i get to the gym” checklist",
             "the “i bought the membership and never went back” checklist",
+            "if your gym bag is a dust museum, here’s your checklist",
         ],
         "items": [
             "have you actually gone or just watched gym content",
@@ -472,6 +491,7 @@ THEMES = {
         "intros": [
             "a quick “why can’t i start anything” checklist",
             "the “i’ll do it later (i won’t)” checklist",
+            "if your to-do list is a graveyard, here’s your checklist",
         ],
         "items": [
             "is the task actually big or just loud in your head",
@@ -494,6 +514,7 @@ THEMES = {
         "intros": [
             "a quick “why is my confidence in the gutter” checklist",
             "the “i feel like i’m failing at being me” checklist",
+            "if you’re holding yourself to a stranger’s standard, here’s your checklist",
         ],
         "items": [
             "are you comparing your insides to everyone’s outsides",
@@ -742,9 +763,13 @@ def find_duplicate_items(items, seen):
 
 
 def is_duplicate(seen, intro, items):
-    """True if the same hook appears, or any item repeats a past one."""
+    """True if the same hook (verbatim OR near-paraphrase) appears, or any
+    item repeats a past one."""
     for h in seen:
-        if h.get("intro") == intro:
+        hist_intro = h.get("intro") or ""
+        if hist_intro == intro:
+            return True
+        if item_similarity(intro, hist_intro) > 0.55:
             return True
     return bool(find_duplicate_items(items, seen))
 
@@ -828,7 +853,18 @@ GEMINI_PROMPT = """You write short, viral self-care "checklist" posts for
 Instagram/TikTok reels.
 
 Genre rules:
-- One hook line, dramatic or relatable, that ends in the word "checklist".
+- One hook line. It MUST end with the word "checklist", but the FRAMING
+  must vary post to post - never the same mold twice. Mix freely between
+  shapes, e.g.: the "..." checklist / a quick "..." checklist / some
+  situation line + "here's a checklist" / a direct question full stop
+  then "here's your checklist" / "if X, this is your checklist".
+  Avoid the flat "why am i X" template - it's been done to death.
+- The hook must be specific and visual, with one slightly absurd,
+  self-deprecating concrete detail (the "treating my body like a stolen
+  rental car" style) - NOT a flat statement of the problem. It should make
+  someone think "yes, that's me, mock me specifically."
+- The hook must not closely paraphrase any hook in the "Recent posts you
+  already made" list, even with different wording or framing.
 - Then 6-8 short checklist items written in a gentle, slightly
   self-deprecating, relatable tone.
 - The SECOND-TO-LAST item is a short share call-to-action, in the same
