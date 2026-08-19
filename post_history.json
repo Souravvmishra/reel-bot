@@ -639,5 +639,28 @@
       "growingold",
       "stiffneck"
     ]
+  },
+  {
+    "ts": "2026-08-19T04:08:05",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "room",
+    "intro": "the “my room is currently a disaster zone” checklist",
+    "items": [
+      "is that giant pile of clothes clean or dirty (you don’t even know)",
+      "can you actually see your floor right now",
+      "do you have at least three empty cups on your desk",
+      "is your bed half covered in random stuff you threw there",
+      "send this to the friend who also lives in a pile of clothes",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "messyroom",
+      "depressionroom",
+      "cleanwithme",
+      "messyhouse"
+    ]
   }
 ]
