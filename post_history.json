@@ -685,5 +685,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-08-20T04:08:29",
+    "source": "local (fallback)",
+    "theme": "psychology",
+    "intro": "a quick “why am i psychoanalyzing myself at 2am” checklist",
+    "items": [
+      "have you read one article and now you’re a doctor",
+      "is your brain just tired, not broken",
+      "are you overthinking a text (it was fine)",
+      "have you slept or are you analyzing on empty",
+      "is your personality a list of online diagnoses",
+      "send this to the friend who needs to see it",
+      "or none of the above and you just need a hug"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
