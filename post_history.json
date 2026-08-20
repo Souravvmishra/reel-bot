@@ -731,5 +731,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-08-20T16:57:56",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "gym",
+    "intro": "if your running shoes are currently serving as a dust-bunny hotel under your bed, here’s your checklist",
+    "items": [
+      "did you buy workout clothes just to wear them while eating snacks on the couch",
+      "is your gym bag currently acting as a heavy doorstop",
+      "are you watching fitness videos on your phone while lying perfectly still",
+      "did you snooze your gym alarm four times and call it a hand workout",
+      "are you waiting for some magic energy to hit you instead of just putting on your shoes",
+      "tag the friend who’s also paying for a gym membership they never use",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "gymmotivation",
+      "gymhumor",
+      "lazyday",
+      "workoutlife",
+      "fitnessgoals"
+    ]
   }
 ]
