@@ -708,5 +708,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-08-20T12:32:04",
+    "source": "local (fallback)",
+    "theme": "friends",
+    "intro": "a quick “why do i feel so disconnected” checklist",
+    "items": [
+      "is your friendship surviving on likes and streaks",
+      "have you actually made plans or just said ‘we should hang’",
+      "have you texted someone back (they’re not mad, they’re waiting)",
+      "is your best friend also just your phone",
+      "have you told anyone how you’re actually doing",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
