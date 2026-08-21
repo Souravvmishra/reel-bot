@@ -803,5 +803,28 @@
       "relatable",
       "funny"
     ]
+  },
+  {
+    "ts": "2026-08-21T16:58:33",
+    "source": "local (fallback)",
+    "theme": "hygiene",
+    "intro": "if you sniffed your shirt before deciding it was ok, here’s your checklist",
+    "items": [
+      "when did you last do laundry",
+      "have you brushed your teeth (both times)",
+      "are you wearing the same socks from tuesday",
+      "have you washed your face",
+      "do you smell like the ghost of your past self",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
