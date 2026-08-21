@@ -755,5 +755,29 @@
       "workoutlife",
       "fitnessgoals"
     ]
+  },
+  {
+    "ts": "2026-08-21T04:10:13",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "procrastination",
+    "intro": "if you’ve been sitting on your bed wearing only one sock for forty minutes staring at a wall, here’s your checklist",
+    "items": [
+      "did you make a huge to-do list just to avoid doing the first real thing",
+      "are you thinking of the task like a giant monster instead of a tiny step",
+      "did you clean your whole room just to avoid opening one page",
+      "can you promise yourself to do a really bad job on the first try",
+      "can you set a timer for two minutes and stop if you still hate it",
+      "send this to the friend who has been saying “i’m about to start” for three hours",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "procrastination",
+      "taskparalysis",
+      "productivity",
+      "adhdproblems",
+      "gettingthingsdone"
+    ]
   }
 ]
