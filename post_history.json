@@ -779,5 +779,29 @@
       "adhdproblems",
       "gettingthingsdone"
     ]
+  },
+  {
+    "ts": "2026-08-21T12:32:35",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "body",
+    "intro": "if your knees sound like a dry bag of chips cracking open every time you stand up, here’s your checklist",
+    "items": [
+      "have you moved your neck today or are you turning your whole body like a robot",
+      "did you make a loud groan just from sitting down on a soft couch",
+      "are you ignoring a weird pinch in your hip and hoping it goes away",
+      "did you sit on the floor and wonder if you can get back up without help",
+      "have you been rubbing a spot on your lower back that suddenly hurts for no reason",
+      "send this to a friend whose bones are making weird noises too",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "growingolder",
+      "bodyaches",
+      "backpain",
+      "relatable",
+      "funny"
+    ]
   }
 ]
