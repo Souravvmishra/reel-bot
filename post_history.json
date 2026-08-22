@@ -850,5 +850,28 @@
       "budgeting",
       "savingmoney"
     ]
+  },
+  {
+    "ts": "2026-08-22T12:22:56",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "brain",
+    "intro": "if your brain is currently hosting a loud rock concert for every awkward mistake you’ve made since fifth grade, this is your checklist",
+    "items": [
+      "are you trying to fix a problem that is not real yet",
+      "did you make up a fake fight in your head just to win it",
+      "did you just replay the same quick chat five times in a row",
+      "is thinking about this for the tenth time actually helping",
+      "can we let that awkward thing you did years ago rest",
+      "send this to a friend who also thinks way too much",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "overthinking",
+      "nightbrain",
+      "anxiety"
+    ]
   }
 ]
