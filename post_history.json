@@ -826,5 +826,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-08-22T04:06:25",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "money",
+    "intro": "if you’re currently looking at your banking app with one eye closed like it’s a scary movie, here’s your checklist",
+    "items": [
+      "open the app and look at the number (i promise you will survive)",
+      "stop tracking that package you bought to feel a tiny spark of joy",
+      "delete your card details from that shopping site so it’s harder to buy stuff",
+      "forgive yourself for that silly thing you bought yesterday",
+      "find three cool things you already own and actually use them",
+      "send this to the friend who always helps you justify a bad purchase",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "moneytips",
+      "spending",
+      "shoppingaddict",
+      "budgeting",
+      "savingmoney"
+    ]
   }
 ]
