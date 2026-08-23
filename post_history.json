@@ -922,5 +922,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-08-23T16:47:40",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "body",
+    "intro": "if you just made a noise like a rusty swing set just by sitting down, here’s your checklist",
+    "items": [
+      "did your neck just make a sound like dry twigs snapping",
+      "are you holding your shoulders up like they are giant earrings",
+      "try to turn your head to the side without moving your whole chest",
+      "unclench your jaw before your teeth glue together",
+      "go lie on the hard floor like a dropped noodle for five minutes",
+      "send this to the friend whose back is older than they are",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "bodypain",
+      "growingold",
+      "stiffneck",
+      "funnyreels",
+      "wellness"
+    ]
   }
 ]
