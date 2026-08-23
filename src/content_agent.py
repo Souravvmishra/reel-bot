@@ -622,7 +622,7 @@ def generate(theme, rng, max_items=7, used_intros=None, used_items=None):
     n = rng.randint(lo, hi)
     items = rng.sample(pool, n)
     items.append(DEFAULT_CTA)
-    items.append(rng.choice(CLOSERS))
+    items.append("etc")
     return intro, items
 
 

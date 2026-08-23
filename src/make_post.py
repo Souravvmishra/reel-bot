@@ -47,7 +47,7 @@ DEFAULT_ITEMS     = [
 ]
 
 # --- layout, measured from the reference screenshot at W=736 ---------------
-W             = 736
+W             = 750
 AV_X, AV_Y    = 31, 31
 AV_SIZE       = 52
 USER_X        = 106
@@ -62,16 +62,17 @@ BODY_LEFT     = 31          # intro / left margin
 BULLET_CX     = 57          # bullet center
 TEXT_X        = 93          # bullet text / hanging indent
 INTRO_TOP     = 120
-LINE_H        = 46          # line-to-line spacing (airy, like reference)
-INTRO_EXTRA   = 16          # extra space after the intro (hierarchy)
+LINE_H        = 46          # line-to-line spacing within same item
+INTRO_EXTRA   = 24          # extra space after the intro (hierarchy)
+BULLET_EXTRA  = 18          # extra space between different bullet points
 BOTTOM_PAD    = 36
 AV_RADIUS     = 10
 
-BODY_SIZE     = 24.5        # body font size (matches reference width ~12.8px/char)
+BODY_SIZE     = 26          # body font size
 USER_SIZE     = 19          # username font size
 FOLLOW_SIZE   = 16
 TS_SIZE       = 15
-WRAP_WIDTH    = 596         # max text width before wrapping (tuned to reference breaks)
+WRAP_WIDTH    = 560         # max text width before wrapping (shorter for readability)
 
 # ---------------------------------------------------------------------------
 
@@ -183,7 +184,8 @@ def make_post(output, username=DEFAULT_USERNAME, timestamp=DEFAULT_TIMESTAMP,
         layout.append((True, wrapped(meas, it, f_body, WRAP_WIDTH)))
 
     n_lines = sum(len(ls) for _, ls in layout)
-    body_h = LINE_H * (n_lines - 1) + INTRO_EXTRA
+    n_bullets = sum(1 for is_bullet, _ in layout if is_bullet)
+    body_h = LINE_H * (n_lines - 1) + INTRO_EXTRA + BULLET_EXTRA * n_bullets
     # height: from avatar top to last text baseline, plus bottom pad
     last_top = INTRO_TOP + body_h
     ascent, descent = f_body.getmetrics()
@@ -226,7 +228,9 @@ def make_post(output, username=DEFAULT_USERNAME, timestamp=DEFAULT_TIMESTAMP,
                        fill=TEXT, anchor="ms")
             d.text((x, baseline), ln, font=f_body, fill=TEXT, anchor="ls")
             y += LINE_H
-        if not is_bullet and len(layout) > 1:
+        if is_bullet:
+            y += BULLET_EXTRA
+        elif len(layout) > 1:
             y += INTRO_EXTRA
 
     img.save(output)
