@@ -873,5 +873,29 @@
       "nightbrain",
       "anxiety"
     ]
+  },
+  {
+    "ts": "2026-08-23T04:09:42",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "work",
+    "intro": "the “doing math to see if you can retire at twenty-eight” checklist",
+    "items": [
+      "did you close your work email so you can actually enjoy the rest of tonight",
+      "write down that one big scary task so it stops bouncing around in your brain",
+      "pick out a soft shirt for tomorrow so you have one comfy thing to look forward to",
+      "stop trying to fix next week’s problems before monday even starts",
+      "can you promise to start slow tomorrow instead of trying to save the whole company",
+      "send this to the friend who is also sad about the weekend ending",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "sundayscaries",
+      "mondayblues",
+      "workdread",
+      "worklife"
+    ]
   }
 ]
