@@ -970,5 +970,29 @@
       "stayingin",
       "makingfriends"
     ]
+  },
+  {
+    "ts": "2026-08-24T12:32:15",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "comparison",
+    "intro": "if you just watched a nineteen-year-old online buy a house while you are currently eating cold soup with a plastic fork, here is your checklist",
+    "items": [
+      "did you just spend ten minutes staring at the page of someone you do not even like?",
+      "are you comparing your messy morning to their best afternoon?",
+      "did you forget about the dirty dishes sitting just out of frame in that video?",
+      "did you forget that nobody’s life is actually that perfect?",
+      "is looking at their shiny life helping you make yours better?",
+      "send this to the friend who also feels like the last messy adult on earth.",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "comparison",
+      "adulting",
+      "socialmedia",
+      "growth"
+    ]
   }
 ]
