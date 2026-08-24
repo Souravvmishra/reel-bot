@@ -994,5 +994,29 @@
       "socialmedia",
       "growth"
     ]
+  },
+  {
+    "ts": "2026-08-24T17:02:31",
+    "source": "local (fallback)",
+    "theme": "screens",
+    "intro": "your eyes are dry and your thumb won’t stop. here’s a checklist",
+    "items": [
+      "are you doom scrolling right now instead of doing the thing",
+      "when did you last sit with your own thoughts, no podcast, no music",
+      "did you check your phone out of boredom or out of need",
+      "is your thumb developing a scroll callus",
+      "how many hours of screen time did you actually clock today",
+      "have you watched one full video without skipping ahead",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
