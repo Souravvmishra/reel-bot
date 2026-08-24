@@ -946,5 +946,29 @@
       "funnyreels",
       "wellness"
     ]
+  },
+  {
+    "ts": "2026-08-24T04:21:30",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "social",
+    "intro": "the “practicing your hello in the mirror before the delivery driver gets here” checklist",
+    "items": [
+      "did you tell someone you were busy when your only plan was staring at the wall",
+      "are you waiting for a text from someone you haven’t messaged since last year",
+      "did you ignore a call because talking felt like too much work",
+      "have you looked at other people’s plans and felt like they live on another planet",
+      "are you hoping your friends still like you even though you always say no to going out",
+      "send this to the friend you keep meaning to text back",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "introvertdiary",
+      "loneliness",
+      "sociallife",
+      "stayingin",
+      "makingfriends"
+    ]
   }
 ]
