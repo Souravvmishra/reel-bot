@@ -68,10 +68,10 @@ BULLET_EXTRA  = 18          # extra space between different bullet points
 BOTTOM_PAD    = 36
 AV_RADIUS     = 10
 
-BODY_SIZE     = 26          # body font size
-USER_SIZE     = 19          # username font size
-FOLLOW_SIZE   = 16
-TS_SIZE       = 15
+BODY_SIZE     = 30          # body font size
+USER_SIZE     = 22          # username font size
+FOLLOW_SIZE   = 18
+TS_SIZE       = 17
 WRAP_WIDTH    = 560         # max text width before wrapping (shorter for readability)
 
 # ---------------------------------------------------------------------------
