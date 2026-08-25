@@ -1067,5 +1067,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-08-25T17:03:01",
+    "source": "local (fallback)",
+    "theme": "psychology",
+    "intro": "the “i diagnosed myself with everything” checklist",
+    "items": [
+      "are you using therapy words as weapons on yourself",
+      "is this insight or just spiraling with extra steps",
+      "is your personality a list of online diagnoses",
+      "have you actually asked a real professional",
+      "are you overthinking a text (it was fine)",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
