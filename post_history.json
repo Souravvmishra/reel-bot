@@ -1018,5 +1018,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-08-25T04:09:02",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "gym",
+    "intro": "if your gym bag has been sitting in your car trunk so long it has its own zip code, here is your checklist",
+    "items": [
+      "are you still pretending you are “resting” from a workout you did last month",
+      "did you buy a fancy green drink just to look like a fitness person",
+      "have you driven to the parking lot only to turn right back around",
+      "did you spend your exercise time making a playlist instead of moving",
+      "are you wearing the tight gym top just to sit on the rug and eat snacks",
+      "send this to the friend who is also paying for a gym membership they don’t use",
+      "etc"
+    ],
+    "hashtags": [
+      "gymmotivation",
+      "selfcare",
+      "workoutlife",
+      "gymhumor",
+      "checklist",
+      "lazygoals",
+      "fitnessstruggles"
+    ]
   }
 ]
