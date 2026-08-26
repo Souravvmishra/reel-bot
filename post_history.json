@@ -1139,5 +1139,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-08-26T18:11:45",
+    "source": "local (fallback)",
+    "theme": "hygiene",
+    "intro": "the “i haven’t showered and i’m fine with it (i’m not)” checklist",
+    "items": [
+      "have you brushed your teeth (both times)",
+      "when did you last do laundry",
+      "have you looked in a mirror and flinched",
+      "do you smell like the ghost of your past self",
+      "are you wearing the same socks from tuesday",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
