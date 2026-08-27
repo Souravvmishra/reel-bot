@@ -1186,5 +1186,27 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-08-27T21:31:04",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "social",
+    "intro": "if you’ve started telling your microwave about your day, here’s your checklist",
+    "items": [
+      "did you say no to plans just to sit on your floor and stare at the wall",
+      "are your only texts from a food app or your bank",
+      "did you pray for plans to get cancelled and then got sad when they did",
+      "have you written five texts to old friends but deleted them all",
+      "send this to the friend you always say “we need to catch up” to",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "sociallife",
+      "introvertproblems",
+      "lonely",
+      "relatable"
+    ]
   }
 ]
