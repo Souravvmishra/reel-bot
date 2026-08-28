@@ -1231,5 +1231,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-08-28T15:35:20",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "body",
+    "intro": "if your neck just made a noise like a dry branch snapping, here’s your checklist",
+    "items": [
+      "did you grunt out loud just from leaning over to grab your phone",
+      "are you propping your head up because your neck is too tired to hold it",
+      "did you try to stretch just now and hear three loud clicks in your spine",
+      "have you tried rolling your shoulders back to see if they still work",
+      "send this to the friend who groans every time they get out of bed",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "bodyaches",
+      "backpain",
+      "gettingold",
+      "creakyjoints",
+      "wellness"
+    ]
   }
 ]
