@@ -1254,5 +1254,29 @@
       "creakyjoints",
       "wellness"
     ]
+  },
+  {
+    "ts": "2026-08-28T21:38:00",
+    "source": "local (fallback)",
+    "theme": "procrastination",
+    "intro": "a quick “why can’t i start anything” checklist",
+    "items": [
+      "have you started for just five minutes (that’s the trick)",
+      "have you done the hardest thing first or saved it forever",
+      "would future you forgive you or be mad",
+      "is ‘i work better under pressure’ just your excuse",
+      "is the task actually big or just loud in your head",
+      "are you waiting for motivation that never comes",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
