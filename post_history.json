@@ -1303,5 +1303,30 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-08-29T10:20:29",
+    "source": "local (fallback)",
+    "theme": "confidence",
+    "intro": "if you’re holding yourself to a stranger’s standard, here’s your checklist",
+    "items": [
+      "are you confusing confidence with being perfect",
+      "is your self talk something you’d say to a friend",
+      "have you remembered the things you’re actually good at",
+      "are you comparing your insides to everyone’s outsides",
+      "did you show up even when you didn’t feel like it",
+      "have you kept a promise to yourself this week",
+      "is your bar set by strangers on the internet",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
