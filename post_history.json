@@ -1352,5 +1352,28 @@
       "mindfulness",
       "anxiousmind"
     ]
+  },
+  {
+    "ts": "2026-08-29T19:26:56",
+    "source": "local (fallback)",
+    "theme": "anxiety",
+    "intro": "a quick “why is my heart racing for no reason” checklist",
+    "items": [
+      "have you eaten or had water in the last six hours",
+      "have you had way too much caffeine",
+      "have you taken ten slow breaths, like actually slow",
+      "have you been doom scrolling bad news for hours",
+      "is your body telling you to slow down",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
