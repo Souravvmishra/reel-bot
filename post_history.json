@@ -1328,5 +1328,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-08-29T15:59:34",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "brain",
+    "intro": "if you’re having a fake fight in your head with someone who is probably asleep, here’s your checklist",
+    "items": [
+      "have you written the thoughts down to get them out of your skull",
+      "are you believing the scary things your brain is making up",
+      "did you do something with your hands to stop the loop, like wash a cup",
+      "can you look around and name three blue things in the room",
+      "did you close your eyes and just listen to the room for ten seconds",
+      "send this to the friend who also overthinks every single thing",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "overthinking",
+      "racingthoughts",
+      "mentalchatter",
+      "mindfulness",
+      "anxiousmind"
+    ]
   }
 ]
