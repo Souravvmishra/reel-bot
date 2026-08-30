@@ -1375,5 +1375,30 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-08-30T09:25:19",
+    "source": "local (fallback)",
+    "theme": "outside",
+    "intro": "if your vitamin d is a rumor at this point, here’s your checklist",
+    "items": [
+      "have you been outside in the last 48 hours",
+      "have you felt wind on your face",
+      "have you touched grass, literally",
+      "is your outside voice a foreign language",
+      "have you walked anywhere that isn’t to the fridge",
+      "are your curtains closed 24/7",
+      "when did you last leave your house for a non-essential reason",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
