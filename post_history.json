@@ -1423,5 +1423,30 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-08-30T19:22:27",
+    "source": "local (fallback)",
+    "theme": "hygiene",
+    "intro": "a quick “why do i feel gross” checklist",
+    "items": [
+      "do you smell like the ghost of your past self",
+      "are you wearing the same socks from tuesday",
+      "have you brushed your teeth (both times)",
+      "have you washed your face",
+      "is your skincare routine ‘water, sometimes’",
+      "when did you last do laundry",
+      "have you changed your clothes or are you wearing yesterday’s",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
