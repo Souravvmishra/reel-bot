@@ -1448,5 +1448,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-08-31T10:00:37",
+    "source": "local (fallback)",
+    "theme": "marriage",
+    "intro": "if the most romantic thing in your house is the wifi, here’s your checklist",
+    "items": [
+      "when did you last go on an actual date with them",
+      "do you talk about anything besides chores and logistics",
+      "are you fighting about the same thing since 2019",
+      "have you said thank you for the small stuff lately",
+      "are you both on your phones on the same couch",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
