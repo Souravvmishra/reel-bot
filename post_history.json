@@ -1592,5 +1592,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-02T08:04:39",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "hygiene",
+    "intro": "if your hair is currently a nest and you have a mystery sticky spot on your arm, here is your checklist",
+    "items": [
+      "did you wipe your sticky snack hands on your pants instead of washing them",
+      "are those the same socks you wore to bed last night",
+      "have you brushed your teeth or are you just hiding your breath from yourself",
+      "did you put fresh dry shampoo on top of yesterday’s dry shampoo",
+      "would a quick five-minute shower make you feel like a real person again",
+      "send this to the friend who has been wearing the same hoodie all week",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "feelinggross",
+      "lazyday",
+      "hygiene",
+      "relatable"
+    ]
   }
 ]
