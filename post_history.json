@@ -1616,5 +1616,28 @@
       "hygiene",
       "relatable"
     ]
+  },
+  {
+    "ts": "2026-09-02T19:26:16",
+    "source": "local (fallback)",
+    "theme": "eating",
+    "intro": "the “i forgot to eat again” checklist",
+    "items": [
+      "have you eaten a meal that isn’t coffee",
+      "have you eaten at a table or standing over the sink",
+      "when did you last eat something with actual nutrients",
+      "is your diet 80 percent caffeine",
+      "are you hangry and blaming your friends",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
