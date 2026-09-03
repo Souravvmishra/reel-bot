@@ -1687,5 +1687,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-03T19:21:01",
+    "source": "local (fallback)",
+    "theme": "marriage",
+    "intro": "a quick “why does my marriage feel like a roommate situation” checklist",
+    "items": [
+      "have you texted them something flirty today",
+      "have you picked them over being right this week",
+      "do you talk about anything besides chores and logistics",
+      "when did you last go on an actual date with them",
+      "when did you last ask about their day and actually listen",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
