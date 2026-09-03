@@ -1662,5 +1662,30 @@
       "introverthelp",
       "makeplans"
     ]
+  },
+  {
+    "ts": "2026-09-03T15:34:17",
+    "source": "local (fallback)",
+    "theme": "confidence",
+    "intro": "the “i feel like i’m failing at being me” checklist",
+    "items": [
+      "are you waiting to feel ready before you start",
+      "are you comparing your insides to everyone’s outsides",
+      "is your bar set by strangers on the internet",
+      "did you show up even when you didn’t feel like it",
+      "have you done one thing you said you’d do today",
+      "are you confusing confidence with being perfect",
+      "have you stood up straight and faked it a little",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
