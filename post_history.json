@@ -1639,5 +1639,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-03T08:14:33",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "social",
+    "intro": "if your most talked-to contact this week is the voice on your gps, here is your checklist",
+    "items": [
+      "did you make up a silent rule that they have to text you first?",
+      "are you waiting for invites to things you always say no to?",
+      "have you actually asked someone to hang out, or just hoped they’d read your mind?",
+      "did you say “we should do something” with zero plan to ever follow up?",
+      "is your big plan tonight just watching other people have fun on your phone?",
+      "send this to the friend you haven’t seen in way too long",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "friendships",
+      "introverthelp",
+      "makeplans"
+    ]
   }
 ]
