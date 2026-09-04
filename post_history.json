@@ -1734,5 +1734,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-04T15:32:48",
+    "source": "local (fallback)",
+    "theme": "room",
+    "intro": "if your floor needs a search warrant, here’s your checklist",
+    "items": [
+      "have you opened your window this week",
+      "is your space making your brain feel messier",
+      "when did you last vacuum (ever)",
+      "are there more cups in your room than in your kitchen",
+      "when did you last change your sheets",
+      "do you have 47 empty water bottles on your nightstand",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
