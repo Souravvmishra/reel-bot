@@ -1710,5 +1710,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-04T08:10:46",
+    "source": "local (fallback)",
+    "theme": "brain",
+    "intro": "a quick “why do i feel off” checklist",
+    "items": [
+      "have you taken five slow breaths",
+      "have you written the thought down so it stops looping",
+      "is this problem happening right now or in your head",
+      "what’s one thing you know is actually true",
+      "is your brain replaying something from 2016",
+      "is it 2am (go to sleep, nothing good happens after 2am)",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
