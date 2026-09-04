@@ -1758,5 +1758,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-04T19:02:04",
+    "source": "local (fallback)",
+    "theme": "psychology",
+    "intro": "if one article turned you into a doctor, here’s your checklist",
+    "items": [
+      "have you labeled a normal feeling as a disorder",
+      "is your brain just tired, not broken",
+      "is this insight or just spiraling with extra steps",
+      "have you actually asked a real professional",
+      "have you read one article and now you’re a doctor",
+      "are you using therapy words as weapons on yourself",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
