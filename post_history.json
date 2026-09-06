@@ -1879,5 +1879,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-06T18:26:35",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "work",
+    "intro": "if you’ve been mourning your weekend since sunday noon like a dead hamster, here’s your checklist",
+    "items": [
+      "are you worrying about emails that haven’t even been sent yet",
+      "did you pack your work bag like you’re going to war",
+      "have you thought of three different lies to call in sick tomorrow",
+      "did you ruin your sunday afternoon by just waiting for monday to start",
+      "are you staying up way too late to protest tomorrow’s alarm",
+      "send this to the friend who is also crying about tomorrow",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "sundayscaries",
+      "mondaydread",
+      "worklife",
+      "sundayblues"
+    ]
   }
 ]
