@@ -1831,5 +1831,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-06T08:05:22",
+    "source": "local (fallback)",
+    "theme": "procrastination",
+    "intro": "if your to-do list is a graveyard, here’s your checklist",
+    "items": [
+      "is your phone in the same room right now",
+      "have you done the hardest thing first or saved it forever",
+      "are you scrolling to feel productive instead of doing",
+      "have you just done one tiny thing yet",
+      "have you broken it into a stupidly small first step",
+      "are you waiting for motivation that never comes",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
