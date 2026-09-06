@@ -1855,5 +1855,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-06T14:42:50",
+    "source": "local (fallback)",
+    "theme": "screens",
+    "intro": "the “my brain is fried from my phone” checklist",
+    "items": [
+      "have you looked at something that isn’t a screen since you woke up",
+      "did you compare your life to a stranger’s highlight reel today",
+      "how many hours of screen time did you actually clock today",
+      "have you watched one full video without skipping ahead",
+      "is your thumb developing a scroll callus",
+      "are you doom scrolling right now instead of doing the thing",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
