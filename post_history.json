@@ -1903,5 +1903,29 @@
       "worklife",
       "sundayblues"
     ]
+  },
+  {
+    "ts": "2026-09-07T08:34:28",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "philosophy",
+    "intro": "your 3am “clutching your blanket like a shipwreck survivor while wondering if you made the wrong life choices in 2018” checklist",
+    "items": [
+      "is it past midnight? (deep thoughts after dark are almost always a trap)",
+      "are you trying to solve your entire future in a pitch-black room?",
+      "did you read a weird page about deep space right before bed?",
+      "are you confusing being super tired with your life being a total mess?",
+      "can we agree to put this panic on hold until you’ve had some toast tomorrow?",
+      "send this to the friend who also texts you weird thoughts in the middle of the night",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "existentialcrisis",
+      "3amthoughts",
+      "overthinking",
+      "latenight"
+    ]
   }
 ]
