@@ -1976,5 +1976,30 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-08T08:17:06",
+    "source": "local (fallback)",
+    "theme": "anxiety",
+    "intro": "a quick “why is my heart racing for no reason” checklist",
+    "items": [
+      "are you anxious about something real or something your brain made up",
+      "is your body telling you to slow down",
+      "have you named what you’re scared of, out loud",
+      "have you moved your body to burn off the nervous energy",
+      "have you taken ten slow breaths, like actually slow",
+      "have you eaten or had water in the last six hours",
+      "have you told someone how you feel",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
