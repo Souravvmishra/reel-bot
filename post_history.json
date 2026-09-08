@@ -2001,5 +2001,30 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-08T15:45:50",
+    "source": "local (fallback)",
+    "theme": "comparison",
+    "intro": "the “everyone else has it together” checklist",
+    "items": [
+      "have you unfollowed the accounts that make you feel bad",
+      "are you comparing your chapter one to their chapter twenty",
+      "have you been comparing your behind-the-scenes to their highlight reel",
+      "have you remembered they also post from their lowest moments",
+      "have you touched grass and realized the algorithm isn’t real life",
+      "is ‘everyone else’ actually just five people you don’t know",
+      "is your feed making you feel small",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
