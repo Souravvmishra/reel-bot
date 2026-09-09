@@ -2050,5 +2050,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-09T08:20:34",
+    "source": "local (fallback)",
+    "theme": "body",
+    "intro": "you cracked your neck and heard your ancestors groan. here’s a checklist",
+    "items": [
+      "have you unclenched your jaw (you’re welcome)",
+      "has your posture given up on life",
+      "have you stretched in the last 72 hours",
+      "have you looked at something more than two feet from your face today",
+      "are your shoulders up by your ears",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
