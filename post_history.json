@@ -2097,5 +2097,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-09T19:21:49",
+    "source": "local (fallback)",
+    "theme": "money",
+    "intro": "if your bank app greets you with a sigh, here’s your checklist",
+    "items": [
+      "are you avoiding opening your banking app",
+      "did you buy something you didn’t need this week",
+      "have you checked your balance (be brave)",
+      "have you impulse-bought something while sad",
+      "are you eating out because you’re too tired to cook",
+      "is ‘treat yourself’ becoming a lifestyle",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
