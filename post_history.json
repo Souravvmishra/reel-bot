@@ -2216,5 +2216,28 @@
       "mentalhealth",
       "growth"
     ]
+  },
+  {
+    "ts": "2026-09-11T15:38:02",
+    "source": "local (fallback)",
+    "theme": "social",
+    "intro": "the “i have no plans and it’s saturday” checklist",
+    "items": [
+      "are you still texting back within 24 hours",
+      "have you done something social without a screen",
+      "have you said yes to anything this month",
+      "have you made the first move or always waited",
+      "is your weekend calendar just your couch",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
