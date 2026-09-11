@@ -2239,5 +2239,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-11T19:12:19",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "work",
+    "intro": "if you’ve spent the last four hours of your sunday staring at your work pants like they’re haunted, this is your checklist",
+    "items": [
+      "did you actually relax this weekend, or did you just spend it waiting for monday?",
+      "did you check your work email tonight just to hurt your own feelings?",
+      "is your to-do list for tomorrow so long that you want to hide under the bed?",
+      "did you plan one small, happy treat for tomorrow afternoon to get you through the day?",
+      "can you push just one big task from monday morning to tuesday?",
+      "send this to the coworker you text when you both want to run away.",
+      "etc"
+    ],
+    "hashtags": [
+      "sundayscaries",
+      "mondaydread",
+      "workstress",
+      "weekendover",
+      "selfcare",
+      "checklist",
+      "mentalhealth"
+    ]
   }
 ]
