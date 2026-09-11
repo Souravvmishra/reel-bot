@@ -2193,5 +2193,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-11T08:14:39",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "comparison",
+    "intro": "if watching a twenty-something buy a house while you struggle to put on socks has you spiraling, here’s your checklist",
+    "items": [
+      "did you look at someone’s pretty kitchen and decide you are a total failure?",
+      "did you forget that people don’t show their messy closets or their big fights?",
+      "are you comparing your daily life to a video that took five hours to edit?",
+      "did you see someone get a promotion and forget you don’t even want that job?",
+      "did you assume everyone who looks happy has it all figured out?",
+      "send this to the friend who also feels like they are lagging behind.",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "comparison",
+      "adulting",
+      "mentalhealth",
+      "growth"
+    ]
   }
 ]
