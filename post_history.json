@@ -2263,5 +2263,28 @@
       "checklist",
       "mentalhealth"
     ]
+  },
+  {
+    "ts": "2026-09-12T14:44:12",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "room",
+    "intro": "if you have to step over a tower of boxes just to reach your bed, this is your checklist",
+    "items": [
+      "did you just step on a phone cord and pretend it didn’t hurt",
+      "is your desk chair acting as a second closet right now",
+      "are you sleeping on half your bed because the other half has books on it",
+      "did you make a tiny walking path from your door to your bed",
+      "send this to the friend whose room is a hazard zone",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "messyroom",
+      "cleanroom",
+      "bedroomcheck",
+      "messylife"
+    ]
   }
 ]
