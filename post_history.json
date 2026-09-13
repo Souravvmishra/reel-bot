@@ -2311,5 +2311,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-13T08:29:43",
+    "source": "local (fallback)",
+    "theme": "procrastination",
+    "intro": "a quick “why can’t i start anything” checklist",
+    "items": [
+      "have you broken it into a stupidly small first step",
+      "have you done the hardest thing first or saved it forever",
+      "are you waiting for motivation that never comes",
+      "is your phone in the same room right now",
+      "would future you forgive you or be mad",
+      "is the task actually big or just loud in your head",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
