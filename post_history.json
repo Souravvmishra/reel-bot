@@ -2481,5 +2481,30 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-15T19:44:13",
+    "source": "local (fallback)",
+    "theme": "money",
+    "intro": "the “where did all my money go” checklist",
+    "items": [
+      "have you checked your balance (be brave)",
+      "are you eating out because you’re too tired to cook",
+      "are you avoiding opening your banking app",
+      "have you impulse-bought something while sad",
+      "did you buy something you didn’t need this week",
+      "have you paid that one bill you keep forgetting",
+      "how many subscriptions are silently draining you every month",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
