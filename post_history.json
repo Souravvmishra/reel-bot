@@ -2554,5 +2554,29 @@
       "socialbattery",
       "introvert"
     ]
+  },
+  {
+    "ts": "2026-09-16T19:37:03",
+    "source": "local (fallback)",
+    "theme": "outside",
+    "intro": "the “i live indoors now” checklist",
+    "items": [
+      "have you been outside in the last 48 hours",
+      "have you touched grass, literally",
+      "have you seen the sun today (it’s still there)",
+      "is your vitamin d level a single digit",
+      "have you walked anywhere that isn’t to the fridge",
+      "is your outside voice a foreign language",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
