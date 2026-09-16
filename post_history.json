@@ -2530,5 +2530,29 @@
       "adulting",
       "aging"
     ]
+  },
+  {
+    "ts": "2026-09-16T15:52:03",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "friends",
+    "intro": "if you just cleared your throat because you forgot how to make sound, here is your checklist",
+    "items": [
+      "did you ignore a text because you had no energy and now it’s too late to reply?",
+      "are you just watching your friends’ lives through their stories like a movie?",
+      "have you actually asked someone how they are, or are you waiting for them to ask you first?",
+      "did you say “we should hang out” with no plans to ever make it happen?",
+      "are you hiding behind being tired when you actually just feel left out?",
+      "send this to the friend you are currently ghosting by accident",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "lonely",
+      "friendship",
+      "socialbattery",
+      "introvert"
+    ]
   }
 ]
