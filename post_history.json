@@ -2506,5 +2506,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-16T08:47:28",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "body",
+    "intro": "if your knees just made a sound like a bag of chips, here’s your checklist",
+    "items": [
+      "when did you last stand up without making a sad noise",
+      "is your neck making a gravel sound when you turn your head",
+      "did your back lock up today because you sneezed",
+      "are you sitting with your spine shaped like a letter c",
+      "have you tried a quick stretch instead of just complaining",
+      "send this to the friend who also creaks when they stand up",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "health",
+      "backpain",
+      "posture",
+      "adulting",
+      "aging"
+    ]
   }
 ]
