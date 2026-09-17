@@ -2578,5 +2578,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-17T08:51:30",
+    "source": "local (fallback)",
+    "theme": "comparison",
+    "intro": "a quick “why does everyone have a better life than me” checklist",
+    "items": [
+      "are you comparing your chapter one to their chapter twenty",
+      "have you remembered they also post from their lowest moments",
+      "is your feed making you feel small",
+      "would you trade your whole life for theirs, problems included",
+      "is ‘everyone else’ actually just five people you don’t know",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
