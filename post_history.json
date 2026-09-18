@@ -2696,5 +2696,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-18T19:06:21",
+    "source": "local (fallback)",
+    "theme": "screens",
+    "intro": "a quick “why do i feel like a zombie” checklist",
+    "items": [
+      "are you doom scrolling right now instead of doing the thing",
+      "did you compare your life to a stranger’s highlight reel today",
+      "when did you last sit with your own thoughts, no podcast, no music",
+      "have you watched one full video without skipping ahead",
+      "is your brain full of other people’s opinions right now",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
