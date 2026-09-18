@@ -2649,5 +2649,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-18T08:26:09",
+    "source": "local (fallback)",
+    "theme": "gym",
+    "intro": "the “i bought the membership and never went back” checklist",
+    "items": [
+      "is your routine ‘looking at the gym from my car’",
+      "are you ‘too tired’ for the 50th day in a row",
+      "have you eaten actual protein or just protein bars",
+      "did you sleep (muscles grow in bed, not the gym)",
+      "is your gym bag packed or just a dream",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
