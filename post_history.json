@@ -2719,5 +2719,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-19T08:14:40",
+    "source": "local (fallback)",
+    "theme": "body",
+    "intro": "a quick “why does my body hurt” checklist",
+    "items": [
+      "when did you last move your body without a screen in front of it",
+      "is your body trying to tell you something you’re ignoring",
+      "are your shoulders up by your ears",
+      "have you unclenched your jaw (you’re welcome)",
+      "are you sitting like a shrimp right now",
+      "have you stretched in the last 72 hours",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
