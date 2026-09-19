@@ -2743,5 +2743,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-19T15:06:51",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "work",
+    "intro": "if you’re treating your sunday night couch like a life raft, this is your checklist",
+    "items": [
+      "did you actually look at your week, or are you just making up a scary story",
+      "can you lay out your clothes now so you don’t have to think tomorrow",
+      "did you turn off your work chat so you can enjoy your sunday",
+      "can you plan one tiny treat for lunch tomorrow so you have something to look forward to",
+      "are you trying to fix monday’s problems from your bed right now",
+      "send this to your work bestie who is also dreading tomorrow",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "sundayscaries",
+      "corporate",
+      "worklife",
+      "mentalhealth",
+      "sundayvibes"
+    ]
   }
 ]
