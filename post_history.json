@@ -2815,5 +2815,30 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-20T18:55:36",
+    "source": "local (fallback)",
+    "theme": "confidence",
+    "intro": "the “i feel like i’m failing at being me” checklist",
+    "items": [
+      "is your bar set by strangers on the internet",
+      "have you kept a promise to yourself this week",
+      "have you remembered the things you’re actually good at",
+      "are you waiting to feel ready before you start",
+      "have you done one thing you said you’d do today",
+      "did you show up even when you didn’t feel like it",
+      "have you stood up straight and faked it a little",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
