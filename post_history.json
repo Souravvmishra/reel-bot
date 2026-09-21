@@ -2865,5 +2865,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-21T20:29:46",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "body",
+    "intro": "the “my neck just made a noise like a dry branch cracking” checklist",
+    "items": [
+      "did you groan out loud when you stood up just now",
+      "are you sitting with your head bent at a scary sharp angle",
+      "have you ignored that weird pinch in your lower back since tuesday",
+      "can you roll your shoulders without hearing a loud pop",
+      "did you try to stretch and realize your neck only turns left today",
+      "send this to the friend who also groans like an old wooden door when they stand up",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "bodyhurts",
+      "stiffneck",
+      "gettingolder",
+      "stretching"
+    ]
   }
 ]
