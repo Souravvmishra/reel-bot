@@ -2840,5 +2840,30 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-21T09:14:06",
+    "source": "local (fallback)",
+    "theme": "social",
+    "intro": "if your weekend highlight was a grocery run, here’s your checklist",
+    "items": [
+      "is your weekend calendar just your couch",
+      "have you made the first move or always waited",
+      "have you invited anyone to anything ever",
+      "when did you last laugh out loud with a person",
+      "is your whole social life just work friends",
+      "are you still texting back within 24 hours",
+      "have you done something social without a screen",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
