@@ -2936,5 +2936,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-22T19:48:30",
+    "source": "local (fallback)",
+    "theme": "money",
+    "intro": "a quick “why is my bank account crying” checklist",
+    "items": [
+      "is ‘treat yourself’ becoming a lifestyle",
+      "are you eating out because you’re too tired to cook",
+      "have you impulse-bought something while sad",
+      "did you buy a coffee when there’s coffee at home",
+      "have you checked your balance (be brave)",
+      "have you paid that one bill you keep forgetting",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
