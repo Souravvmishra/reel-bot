@@ -2960,5 +2960,30 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-23T08:46:34",
+    "source": "local (fallback)",
+    "theme": "room",
+    "intro": "the “my space is a disaster” checklist",
+    "items": [
+      "are there more cups in your room than in your kitchen",
+      "has that pile of laundry become furniture",
+      "do you have 47 empty water bottles on your nightstand",
+      "is your floor made of clothes",
+      "is your desk a landfill",
+      "have you thrown away the trash that’s just… sitting there",
+      "when did you last change your sheets",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
