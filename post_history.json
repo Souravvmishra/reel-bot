@@ -3083,5 +3083,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-24T20:02:32",
+    "source": "local (fallback)",
+    "theme": "outside",
+    "intro": "the “i live indoors now” checklist",
+    "items": [
+      "have you seen the sun today (it’s still there)",
+      "have you walked anywhere that isn’t to the fridge",
+      "are your curtains closed 24/7",
+      "when did you last leave your house for a non-essential reason",
+      "have you touched grass, literally",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
