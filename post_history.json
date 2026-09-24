@@ -3058,5 +3058,30 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-24T16:13:41",
+    "source": "local (fallback)",
+    "theme": "work",
+    "intro": "the “my job is eating my soul” checklist",
+    "items": [
+      "is your to-do list 47 items long (that’s not a list, that’s a threat)",
+      "are you running on burnout and calling it hustle",
+      "have you done the one task you keep avoiding all week",
+      "have you taken a real lunch break or eaten at your desk",
+      "is your work-life balance a complete lie",
+      "have you logged off today or are you ‘just checking’",
+      "have you actually taken your vacation days",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
