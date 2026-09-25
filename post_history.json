@@ -3129,5 +3129,30 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-25T16:14:13",
+    "source": "local (fallback)",
+    "theme": "room",
+    "intro": "a quick “why does my room feel like a crime scene” checklist",
+    "items": [
+      "when did you last vacuum (ever)",
+      "have you thrown away the trash that’s just… sitting there",
+      "do you have 47 empty water bottles on your nightstand",
+      "when did you last change your sheets",
+      "is your desk a landfill",
+      "are there more cups in your room than in your kitchen",
+      "is your floor made of clothes",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
