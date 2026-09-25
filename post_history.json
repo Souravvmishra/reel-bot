@@ -3106,5 +3106,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-25T09:01:38",
+    "source": "local (fallback)",
+    "theme": "comparison",
+    "intro": "if a stranger’s grid made you feel small today, here’s your checklist",
+    "items": [
+      "have you unfollowed the accounts that make you feel bad",
+      "have you touched grass and realized the algorithm isn’t real life",
+      "would you trade your whole life for theirs, problems included",
+      "are you jealous or just tired",
+      "is your feed making you feel small",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
