@@ -3178,5 +3178,30 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-26T08:47:06",
+    "source": "local (fallback)",
+    "theme": "social",
+    "intro": "a quick “why is my social life a desert” checklist",
+    "items": [
+      "are you still texting back within 24 hours",
+      "are you waiting for someone else to plan it",
+      "have you said yes to anything this month",
+      "is your ‘i’m busy’ actually ‘i’m scared’",
+      "have you invited anyone to anything ever",
+      "have you done something social without a screen",
+      "have you made the first move or always waited",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
