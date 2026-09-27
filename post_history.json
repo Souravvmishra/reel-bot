@@ -3251,5 +3251,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-27T09:27:45",
+    "source": "local (fallback)",
+    "theme": "marriage",
+    "intro": "the “we said forever and now we just coexist” checklist",
+    "items": [
+      "have you said thank you for the small stuff lately",
+      "are you fighting about the same thing since 2019",
+      "have you texted them something flirty today",
+      "have you touched them without it leading somewhere",
+      "when did you last ask about their day and actually listen",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
