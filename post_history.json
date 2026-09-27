@@ -3274,5 +3274,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-27T19:48:38",
+    "source": "local (fallback)",
+    "theme": "money",
+    "intro": "a quick “why is my bank account crying” checklist",
+    "items": [
+      "are you avoiding opening your banking app",
+      "have you checked your balance (be brave)",
+      "how many subscriptions are silently draining you every month",
+      "have you paid that one bill you keep forgetting",
+      "is your anxiety actually just your credit card",
+      "are you eating out because you’re too tired to cook",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
