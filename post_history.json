@@ -3298,5 +3298,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-28T10:05:01",
+    "source": "local (fallback)",
+    "theme": "body",
+    "intro": "the “i’m 25 and my back is 80” checklist",
+    "items": [
+      "is your neck doing that phone-tilt thing",
+      "is your body trying to tell you something you’re ignoring",
+      "have you walked further than from your bed to your couch",
+      "have you looked at something more than two feet from your face today",
+      "when did you last move your body without a screen in front of it",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
