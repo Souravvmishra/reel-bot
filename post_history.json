@@ -3345,5 +3345,30 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-28T22:10:48",
+    "source": "local (fallback)",
+    "theme": "gym",
+    "intro": "if your gym bag is a dust museum, here’s your checklist",
+    "items": [
+      "is your goal real or a new year’s ghost",
+      "have you actually gone or just watched gym content",
+      "have you gone twice in the same week this month",
+      "did you sleep (muscles grow in bed, not the gym)",
+      "are you ‘too tired’ for the 50th day in a row",
+      "is your routine ‘looking at the gym from my car’",
+      "would you go if it was just for you, not the mirror",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
