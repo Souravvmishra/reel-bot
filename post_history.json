@@ -3393,5 +3393,30 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-29T20:55:48",
+    "source": "local (fallback)",
+    "theme": "social",
+    "intro": "the “i have no plans and it’s saturday” checklist",
+    "items": [
+      "is your whole social life just work friends",
+      "have you invited anyone to anything ever",
+      "is your weekend calendar just your couch",
+      "are you still texting back within 24 hours",
+      "is your ‘i’m busy’ actually ‘i’m scared’",
+      "have you done something social without a screen",
+      "have you made the first move or always waited",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
