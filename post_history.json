@@ -3370,5 +3370,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-29T17:22:58",
+    "source": "local (fallback)",
+    "theme": "comparison",
+    "intro": "a quick “why does everyone have a better life than me” checklist",
+    "items": [
+      "is your feed making you feel small",
+      "have you been comparing your behind-the-scenes to their highlight reel",
+      "are you jealous or just tired",
+      "would you trade your whole life for theirs, problems included",
+      "have you unfollowed the accounts that make you feel bad",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
