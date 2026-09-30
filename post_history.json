@@ -3441,5 +3441,30 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-09-30T17:20:25",
+    "source": "local (fallback)",
+    "theme": "sleep",
+    "intro": "a quick “why am i tired at 3pm” checklist",
+    "items": [
+      "did you wake up to an alarm or to dread",
+      "have you been awake since 4am thinking about that thing",
+      "is your room too bright, too hot, or too loud",
+      "is your sleep schedule a suggestion",
+      "what time did you actually go to bed (be honest)",
+      "have you had caffeine after 2pm",
+      "are you running on 5 hours and spite",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
