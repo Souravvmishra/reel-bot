@@ -3513,5 +3513,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-01T17:47:50",
+    "source": "local (fallback)",
+    "theme": "comparison",
+    "intro": "a quick “why does everyone have a better life than me” checklist",
+    "items": [
+      "have you unfollowed the accounts that make you feel bad",
+      "have you been comparing your behind-the-scenes to their highlight reel",
+      "are you comparing your chapter one to their chapter twenty",
+      "have you touched grass and realized the algorithm isn’t real life",
+      "would you trade your whole life for theirs, problems included",
+      "are you jealous or just tired",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
