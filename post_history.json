@@ -3587,5 +3587,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-02T17:09:18",
+    "source": "local (fallback)",
+    "theme": "philosophy",
+    "intro": "the “what is the point of any of this” checklist",
+    "items": [
+      "is your meaning of life just a nap away",
+      "are you tired (all philosophy hits harder when tired)",
+      "is your crisis about the universe or your to-do list",
+      "have you touched grass and looked at the sky",
+      "have you talked to a person instead of a concept",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
