@@ -3562,5 +3562,30 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-02T10:00:01",
+    "source": "local (fallback)",
+    "theme": "work",
+    "intro": "if sunday night already feels like punishment, here’s your checklist",
+    "items": [
+      "have you said no to one extra task this week",
+      "are you running on burnout and calling it hustle",
+      "are you answering emails at 11pm",
+      "have you actually taken your vacation days",
+      "have you done the one task you keep avoiding all week",
+      "is your work-life balance a complete lie",
+      "do you remember why you took this job",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
