@@ -3633,5 +3633,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-03T09:22:46",
+    "source": "local (fallback)",
+    "theme": "anxiety",
+    "intro": "if your chest is doing laps without your permission, here’s a checklist",
+    "items": [
+      "have you named what you’re scared of, out loud",
+      "have you been doom scrolling bad news for hours",
+      "have you told someone how you feel",
+      "are you anxious about something real or something your brain made up",
+      "have you had way too much caffeine",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
