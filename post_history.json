@@ -3825,5 +3825,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-06T21:04:40",
+    "source": "local (fallback)",
+    "theme": "dating",
+    "intro": "a quick “why can’t i talk to the opposite gender” checklist",
+    "items": [
+      "is every interaction a job interview in your head",
+      "are you being yourself or a character you made up",
+      "have you asked about them instead of talking about you",
+      "do you treat them like an alien species or a person",
+      "have you texted first or are you waiting forever",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
