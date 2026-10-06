@@ -3778,5 +3778,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-06T10:39:33",
+    "source": "local (fallback)",
+    "theme": "room",
+    "intro": "the “my space is a disaster” checklist",
+    "items": [
+      "have you opened your window this week",
+      "is your desk a landfill",
+      "when did you last vacuum (ever)",
+      "have you thrown away the trash that’s just… sitting there",
+      "when did you last change your sheets",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
