@@ -3872,5 +3872,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-07T18:13:20",
+    "source": "local (fallback)",
+    "theme": "money",
+    "intro": "the “where did all my money go” checklist",
+    "items": [
+      "have you impulse-bought something while sad",
+      "did you buy a coffee when there’s coffee at home",
+      "are you eating out because you’re too tired to cook",
+      "how many subscriptions are silently draining you every month",
+      "is your anxiety actually just your credit card",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
