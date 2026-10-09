@@ -3989,5 +3989,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-09T17:48:59",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "comparison",
+    "intro": "if you’re currently watching a 20-year-old’s home tour while wearing a shirt you slept in three days ago, this is your checklist",
+    "items": [
+      "did you forget that everyone is just guessing their way through adulthood?",
+      "are you looking at someone’s best day and calling your normal day a failure?",
+      "did you think a good life means you never feel lost or confused?",
+      "are you comparing your first step to someone else’s final step?",
+      "did you assume that person with the dream job never wants to quit?",
+      "send this to the friend who also feels like they are the only one struggling.",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "comparison",
+      "impostersyndrome",
+      "growingup",
+      "adulthood"
+    ]
   }
 ]
