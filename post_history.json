@@ -3966,5 +3966,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-09T10:50:49",
+    "source": "local (fallback)",
+    "theme": "eating",
+    "intro": "the “i forgot to eat again” checklist",
+    "items": [
+      "did you skip breakfast and wonder why you’re crying",
+      "are you hangry and blaming your friends",
+      "have you drunk any water today (that ‘headache’ is thirst)",
+      "have you had a vegetable this week",
+      "is your diet 80 percent caffeine",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
