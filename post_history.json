@@ -4060,5 +4060,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-10T16:42:04",
+    "source": "local (fallback)",
+    "theme": "social",
+    "intro": "if your weekend highlight was a grocery run, here’s your checklist",
+    "items": [
+      "are you still texting back within 24 hours",
+      "is your weekend calendar just your couch",
+      "have you said yes to anything this month",
+      "have you invited anyone to anything ever",
+      "have you made the first move or always waited",
+      "is your ‘i’m busy’ actually ‘i’m scared’",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
