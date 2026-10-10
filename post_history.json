@@ -4037,5 +4037,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-10T10:04:36",
+    "source": "local (fallback)",
+    "theme": "procrastination",
+    "intro": "the “i’ll do it later (i won’t)” checklist",
+    "items": [
+      "is your phone in the same room right now",
+      "are you waiting for motivation that never comes",
+      "have you broken it into a stupidly small first step",
+      "have you started for just five minutes (that’s the trick)",
+      "would future you forgive you or be mad",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
