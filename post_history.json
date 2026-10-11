@@ -4108,5 +4108,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-11T10:14:45",
+    "source": "local (fallback)",
+    "theme": "confidence",
+    "intro": "if you’re holding yourself to a stranger’s standard, here’s your checklist",
+    "items": [
+      "is your bar set by strangers on the internet",
+      "did you show up even when you didn’t feel like it",
+      "have you kept a promise to yourself this week",
+      "is your self talk something you’d say to a friend",
+      "are you waiting to feel ready before you start",
+      "have you remembered the things you’re actually good at",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
