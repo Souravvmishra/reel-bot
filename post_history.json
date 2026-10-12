@@ -4205,5 +4205,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-12T20:39:58",
+    "source": "local (fallback)",
+    "theme": "brain",
+    "intro": "the “i keep replaying that conversation” checklist",
+    "items": [
+      "is this problem happening right now or in your head",
+      "have you written the thought down so it stops looping",
+      "are you trying to solve a problem that hasn’t happened",
+      "have you eaten today (hungry thoughts aren’t real thoughts)",
+      "what’s one thing you know is actually true",
+      "is your brain replaying something from 2016",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
