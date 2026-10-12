@@ -4180,5 +4180,30 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-12T11:13:54",
+    "source": "local (fallback)",
+    "theme": "philosophy",
+    "intro": "a quick “why am i having an existential crisis at 3am” checklist",
+    "items": [
+      "are you trying to solve everything at once again",
+      "is this a real question or a 3am question",
+      "have you done one small real thing today",
+      "have you talked to a person instead of a concept",
+      "are you tired (all philosophy hits harder when tired)",
+      "are you avoiding life by thinking about existence",
+      "have you eaten today (deep thoughts are hungry thoughts)",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
