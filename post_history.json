@@ -4277,5 +4277,30 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-13T18:42:44",
+    "source": "local (fallback)",
+    "theme": "friends",
+    "intro": "a quick “why do i feel so disconnected” checklist",
+    "items": [
+      "have you texted someone back (they’re not mad, they’re waiting)",
+      "are you isolating because you’re tired or because you’re scared",
+      "have you actually made plans or just said ‘we should hang’",
+      "have you replied ‘lol’ and called it a conversation",
+      "have you seen a friend in person this month",
+      "have you reached out first, like, ever",
+      "when did you last hear a friend’s actual voice",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
