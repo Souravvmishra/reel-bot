@@ -4254,5 +4254,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-13T10:55:27",
+    "source": "local (fallback)",
+    "theme": "gym",
+    "intro": "the “i bought the membership and never went back” checklist",
+    "items": [
+      "have you eaten actual protein or just protein bars",
+      "are you comparing your day one to their year five",
+      "is your goal real or a new year’s ghost",
+      "is your routine ‘looking at the gym from my car’",
+      "would you go if it was just for you, not the mirror",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
