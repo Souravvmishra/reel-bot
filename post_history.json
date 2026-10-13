@@ -4302,5 +4302,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-13T21:22:39",
+    "source": "local (fallback)",
+    "theme": "screens",
+    "intro": "a quick “why do i feel like a zombie” checklist",
+    "items": [
+      "how many hours of screen time did you actually clock today",
+      "is your thumb developing a scroll callus",
+      "did you check your phone out of boredom or out of need",
+      "is your brain full of other people’s opinions right now",
+      "have you looked at something that isn’t a screen since you woke up",
+      "are you doom scrolling right now instead of doing the thing",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
