@@ -4326,5 +4326,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-17T06:10:53",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "work",
+    "intro": "if you’re staring at your work laptop on sunday night like it’s about to bite you, this is your checklist",
+    "items": [
+      "did you spend all of sunday worrying about monday instead of enjoying your day",
+      "are you stressing over meetings that aren’t even on your calendar yet",
+      "did you open your work chat at 9pm just to ruin your own mood",
+      "are you trying to solve tomorrow’s work drama from your bed",
+      "have you set four different alarms just so you can hit snooze",
+      "send this to the coworker who is also dreading tomorrow",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "sundayscaries",
+      "mondaydread",
+      "workburnout",
+      "worklife"
+    ]
   }
 ]
