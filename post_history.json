@@ -4374,5 +4374,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-17T14:44:19",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "comparison",
+    "intro": "if you’re watching a video of someone’s perfectly clean life while eating dry cereal out of a coffee mug, here’s your checklist",
+    "items": [
+      "did you forget that nobody posts pictures of their sink full of dirty dishes",
+      "are you acting like everyone else got a secret rulebook for life that you missed",
+      "did you mistake a filtered ten-second clip for someone’s actual reality",
+      "have you remembered that matching gym clothes don’t mean someone has it all figured out",
+      "send this to the friend who feels like they’re falling behind",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "adulting",
+      "comparison",
+      "stopcomparing",
+      "lifeishard"
+    ]
   }
 ]
