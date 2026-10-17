@@ -4350,5 +4350,29 @@
       "workburnout",
       "worklife"
     ]
+  },
+  {
+    "ts": "2026-10-17T07:58:46",
+    "source": "local (fallback)",
+    "theme": "confidence",
+    "intro": "the “i feel like i’m failing at being me” checklist",
+    "items": [
+      "is your bar set by strangers on the internet",
+      "have you remembered the things you’re actually good at",
+      "have you done one thing you said you’d do today",
+      "are you waiting to feel ready before you start",
+      "are you confusing confidence with being perfect",
+      "are you comparing your insides to everyone’s outsides",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
