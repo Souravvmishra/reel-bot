@@ -4422,5 +4422,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-18T08:16:14",
+    "source": "local (fallback)",
+    "theme": "room",
+    "intro": "if your floor needs a search warrant, here’s your checklist",
+    "items": [
+      "when did you last vacuum (ever)",
+      "is your desk a landfill",
+      "has that pile of laundry become furniture",
+      "have you opened your window this week",
+      "when did you last change your sheets",
+      "do you have 47 empty water bottles on your nightstand",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
