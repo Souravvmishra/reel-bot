@@ -4471,5 +4471,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-18T18:43:55",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "body",
+    "intro": "if standing up just made your knees sound like bubble wrap, here’s your checklist",
+    "items": [
+      "did your lower back just make a noise that scared your cat",
+      "have you moved any muscle today besides your thumbs",
+      "are you sitting so crooked your neck is doing all the work",
+      "have you uncurled your spine at least once today",
+      "did your ankle crack so loud you thought the floor broke",
+      "send this to the friend whose joints pop every time they stand up",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "bodyaches",
+      "posturecheck",
+      "backpain",
+      "gettingolder",
+      "stretches"
+    ]
   }
 ]
