@@ -4520,5 +4520,30 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-19T18:03:32",
+    "source": "local (fallback)",
+    "theme": "confidence",
+    "intro": "a quick “why is my confidence in the gutter” checklist",
+    "items": [
+      "are you confusing confidence with being perfect",
+      "are you waiting to feel ready before you start",
+      "have you kept a promise to yourself this week",
+      "have you remembered the things you’re actually good at",
+      "are you comparing your insides to everyone’s outsides",
+      "is your bar set by strangers on the internet",
+      "have you done one thing you said you’d do today",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
