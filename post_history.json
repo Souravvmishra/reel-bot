@@ -4689,5 +4689,30 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-21T20:15:20",
+    "source": "local (fallback)",
+    "theme": "social",
+    "intro": "the “i have no plans and it’s saturday” checklist",
+    "items": [
+      "when did you last laugh out loud with a person",
+      "are you waiting for someone else to plan it",
+      "have you made the first move or always waited",
+      "is your whole social life just work friends",
+      "are you still texting back within 24 hours",
+      "have you invited anyone to anything ever",
+      "have you said yes to anything this month",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
