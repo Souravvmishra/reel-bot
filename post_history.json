@@ -4641,5 +4641,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-21T08:48:54",
+    "source": "local (fallback)",
+    "theme": "work",
+    "intro": "if sunday night already feels like punishment, here’s your checklist",
+    "items": [
+      "have you done the one task you keep avoiding all week",
+      "is your to-do list 47 items long (that’s not a list, that’s a threat)",
+      "have you said no to one extra task this week",
+      "are you running on burnout and calling it hustle",
+      "have you taken a real lunch break or eaten at your desk",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
