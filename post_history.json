@@ -4761,5 +4761,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-22T20:13:24",
+    "source": "local (fallback)",
+    "theme": "anxiety",
+    "intro": "if your chest is doing laps without your permission, here’s a checklist",
+    "items": [
+      "have you eaten or had water in the last six hours",
+      "have you been doom scrolling bad news for hours",
+      "have you named what you’re scared of, out loud",
+      "have you told someone how you feel",
+      "is your body telling you to slow down",
+      "are you anxious about something real or something your brain made up",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
