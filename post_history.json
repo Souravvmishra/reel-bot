@@ -4738,5 +4738,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-22T16:22:56",
+    "source": "local (fallback)",
+    "theme": "sleep",
+    "intro": "if your bed is a warm jail cell you can’t escape, here’s your checklist",
+    "items": [
+      "have you napped today and regretted it right away",
+      "have you had caffeine after 2pm",
+      "did you wake up to an alarm or to dread",
+      "did you sleep or just lie in the dark with your phone",
+      "have you been awake since 4am thinking about that thing",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
