@@ -4785,5 +4785,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-23T08:46:10",
+    "source": "local (fallback)",
+    "theme": "brain",
+    "intro": "if your brain is replaying 2016 at 3am, here’s your checklist",
+    "items": [
+      "what’s one thing you know is actually true",
+      "have you written the thought down so it stops looping",
+      "is it 2am (go to sleep, nothing good happens after 2am)",
+      "are you trying to solve a problem that hasn’t happened",
+      "have you taken five slow breaths",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
