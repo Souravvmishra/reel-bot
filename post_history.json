@@ -4808,5 +4808,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-23T16:12:31",
+    "source": "local (fallback)",
+    "theme": "eating",
+    "intro": "if your last meal was a coffee and a prayer, here’s your checklist",
+    "items": [
+      "are you running on sugar and vibes",
+      "have you had a vegetable this week",
+      "is your diet 80 percent caffeine",
+      "are you hangry and blaming your friends",
+      "is your ‘lunch’ a granola bar you found in your bag",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
