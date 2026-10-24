@@ -4856,5 +4856,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-24T08:20:45",
+    "source": "local (fallback)",
+    "theme": "psychology",
+    "intro": "the “i diagnosed myself with everything” checklist",
+    "items": [
+      "are you using therapy words as weapons on yourself",
+      "have you slept or are you analyzing on empty",
+      "have you done one thing without analyzing it first",
+      "is your brain just tired, not broken",
+      "have you labeled a normal feeling as a disorder",
+      "is this insight or just spiraling with extra steps",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
