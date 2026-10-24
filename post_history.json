@@ -4880,5 +4880,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-24T18:52:48",
+    "source": "local (fallback)",
+    "theme": "friends",
+    "intro": "a quick “why am i lonely despite having friends” checklist",
+    "items": [
+      "have you reached out first, like, ever",
+      "have you told anyone how you’re actually doing",
+      "have you texted someone back (they’re not mad, they’re waiting)",
+      "have you actually made plans or just said ‘we should hang’",
+      "are you isolating because you’re tired or because you’re scared",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
