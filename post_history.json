@@ -4951,5 +4951,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-25T19:08:40",
+    "source": "local (fallback)",
+    "theme": "anxiety",
+    "intro": "a quick “why does my chest feel tight” checklist",
+    "items": [
+      "have you told someone how you feel",
+      "have you taken ten slow breaths, like actually slow",
+      "have you named what you’re scared of, out loud",
+      "have you eaten or had water in the last six hours",
+      "have you had way too much caffeine",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
