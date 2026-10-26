@@ -5023,5 +5023,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-26T21:06:35",
+    "source": "local (fallback)",
+    "theme": "work",
+    "intro": "a quick “why am i dreading monday” checklist",
+    "items": [
+      "is your work-life balance a complete lie",
+      "have you actually taken your vacation days",
+      "is your to-do list 47 items long (that’s not a list, that’s a threat)",
+      "have you done the one task you keep avoiding all week",
+      "have you taken a real lunch break or eaten at your desk",
+      "have you said no to one extra task this week",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
