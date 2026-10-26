@@ -4998,5 +4998,30 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-26T18:01:08",
+    "source": "local (fallback)",
+    "theme": "brain",
+    "intro": "a quick “why do i feel off” checklist",
+    "items": [
+      "have you eaten today (hungry thoughts aren’t real thoughts)",
+      "is it 2am (go to sleep, nothing good happens after 2am)",
+      "is this problem happening right now or in your head",
+      "have you taken five slow breaths",
+      "would you say this out loud to your best friend",
+      "is your brain replaying something from 2016",
+      "are you trying to solve a problem that hasn’t happened",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
