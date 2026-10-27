@@ -5094,5 +5094,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-27T20:49:18",
+    "source": "local (fallback)",
+    "theme": "confidence",
+    "intro": "the “i feel like i’m failing at being me” checklist",
+    "items": [
+      "are you confusing confidence with being perfect",
+      "are you waiting to feel ready before you start",
+      "have you kept a promise to yourself this week",
+      "have you done one thing you said you’d do today",
+      "are you comparing your insides to everyone’s outsides",
+      "have you remembered the things you’re actually good at",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
