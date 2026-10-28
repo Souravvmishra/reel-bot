@@ -5168,5 +5168,30 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-28T21:12:14",
+    "source": "local (fallback)",
+    "theme": "philosophy",
+    "intro": "if it’s 3am and you’re asking why anything exists, here’s a checklist",
+    "items": [
+      "is your crisis about the universe or your to-do list",
+      "are you avoiding life by thinking about existence",
+      "have you done one small real thing today",
+      "is your meaning of life just a nap away",
+      "have you eaten today (deep thoughts are hungry thoughts)",
+      "have you touched grass and looked at the sky",
+      "is this a real question or a 3am question",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
