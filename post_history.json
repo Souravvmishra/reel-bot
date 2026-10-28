@@ -5143,5 +5143,30 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-28T17:43:20",
+    "source": "local (fallback)",
+    "theme": "marriage",
+    "intro": "if the most romantic thing in your house is the wifi, here’s your checklist",
+    "items": [
+      "have you picked them over being right this week",
+      "have you touched them without it leading somewhere",
+      "have you said thank you for the small stuff lately",
+      "when did you last go on an actual date with them",
+      "have you texted them something flirty today",
+      "do you talk about anything besides chores and logistics",
+      "when did you last ask about their day and actually listen",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
