@@ -5265,5 +5265,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-30T10:21:38",
+    "source": "local (fallback)",
+    "theme": "sleep",
+    "intro": "if your bed is a warm jail cell you can’t escape, here’s your checklist",
+    "items": [
+      "did you sleep or just lie in the dark with your phone",
+      "have you napped today and regretted it right away",
+      "is your room too bright, too hot, or too loud",
+      "are you running on 5 hours and spite",
+      "is your sleep schedule a suggestion",
+      "what time did you actually go to bed (be honest)",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
