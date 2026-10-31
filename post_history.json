@@ -5338,5 +5338,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-31T09:53:44",
+    "source": "local (fallback)",
+    "theme": "friends",
+    "intro": "your phone is quiet and it’s starting to feel personal. here’s a checklist",
+    "items": [
+      "is your best friend also just your phone",
+      "have you seen a friend in person this month",
+      "have you told anyone how you’re actually doing",
+      "when did you last hear a friend’s actual voice",
+      "have you reached out first, like, ever",
+      "is your friendship surviving on likes and streaks",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
