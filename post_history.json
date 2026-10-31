@@ -5387,5 +5387,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-10-31T20:08:36",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "body",
+    "intro": "if your knees sound like bubble wrap on the stairs, here’s your checklist",
+    "items": [
+      "did you bend down to pick up a sock and freeze halfway",
+      "is your neck stuck sideways from resting on two flat pillows",
+      "did you pull a shoulder muscle reaching for your water",
+      "does your lower back ache from standing still for two minutes",
+      "are you stiff just from sitting in one spot for half an hour",
+      "send this to the friend who groans every time they stand up",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "bodyaches",
+      "gettingolder",
+      "soreness",
+      "relatable"
+    ]
   }
 ]
