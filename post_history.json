@@ -5410,5 +5410,30 @@
       "soreness",
       "relatable"
     ]
+  },
+  {
+    "ts": "2026-11-01T10:44:08",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "eating",
+    "intro": "if your stomach is making whale sounds and you just realized it’s 4 pm, this is your checklist",
+    "items": [
+      "are your hands shaking while you type that email",
+      "did you stare into the open fridge hoping a cooked meal would just appear",
+      "is your main food so far just three chips and a mint",
+      "are you shocked your head hurts after eating zero food all day",
+      "did you mistake being hungry for being sad",
+      "send this to your friend who forgets lunch until the sun goes down",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "forgottoeat",
+      "remembertoeat",
+      "adhdproblems",
+      "hangry",
+      "busyday"
+    ]
   }
 ]
