@@ -5435,5 +5435,29 @@
       "hangry",
       "busyday"
     ]
+  },
+  {
+    "ts": "2026-11-01T17:28:12",
+    "source": "local (fallback)",
+    "theme": "anxiety",
+    "intro": "a quick “why does my chest feel tight” checklist",
+    "items": [
+      "have you had way too much caffeine",
+      "have you told someone how you feel",
+      "are you anxious about something real or something your brain made up",
+      "have you been doom scrolling bad news for hours",
+      "is your body telling you to slow down",
+      "have you moved your body to burn off the nervous energy",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
