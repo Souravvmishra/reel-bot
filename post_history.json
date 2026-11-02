@@ -5482,5 +5482,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-02T11:34:27",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "hygiene",
+    "intro": "if you’ve smelled your own hoodie today and winced, this is your checklist",
+    "items": [
+      "have you brushed your teeth today or just chewed gum and called it good",
+      "are you wearing pants from the “dirty but okay” chair",
+      "is your hair mostly dry shampoo at this point",
+      "did you change your socks today or are those from yesterday",
+      "send this to the friend who also needs a total shower reset",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "hygiene",
+      "resetroutine",
+      "glowup",
+      "relatable",
+      "mentalhealth"
+    ]
   }
 ]
