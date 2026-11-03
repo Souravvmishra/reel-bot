@@ -5602,5 +5602,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-03T21:52:31",
+    "source": "local (fallback)",
+    "theme": "eating",
+    "intro": "if your last meal was a coffee and a prayer, here’s your checklist",
+    "items": [
+      "when did you last eat something with actual nutrients",
+      "have you eaten a meal that isn’t coffee",
+      "is your ‘lunch’ a granola bar you found in your bag",
+      "are you hangry and blaming your friends",
+      "is your diet 80 percent caffeine",
+      "are you running on sugar and vibes",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
