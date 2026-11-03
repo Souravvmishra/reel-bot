@@ -5552,5 +5552,30 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-03T11:13:19",
+    "source": "local (fallback)",
+    "theme": "screens",
+    "intro": "the “my brain is fried from my phone” checklist",
+    "items": [
+      "did you check your phone out of boredom or out of need",
+      "is your brain full of other people’s opinions right now",
+      "have you looked at something that isn’t a screen since you woke up",
+      "are you doom scrolling right now instead of doing the thing",
+      "when did you last sit with your own thoughts, no podcast, no music",
+      "did you compare your life to a stranger’s highlight reel today",
+      "have you watched one full video without skipping ahead",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
