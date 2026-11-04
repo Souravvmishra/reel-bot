@@ -5650,5 +5650,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-04T19:10:48",
+    "source": "local (fallback)",
+    "theme": "comparison",
+    "intro": "the “everyone else has it together” checklist",
+    "items": [
+      "are you jealous or just tired",
+      "is your feed making you feel small",
+      "is ‘everyone else’ actually just five people you don’t know",
+      "have you remembered they also post from their lowest moments",
+      "would you trade your whole life for theirs, problems included",
+      "are you comparing your chapter one to their chapter twenty",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
