@@ -5674,5 +5674,30 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-04T22:00:16",
+    "source": "local (fallback)",
+    "theme": "sleep",
+    "intro": "the “i slept 11 hours and i’m still exhausted” checklist",
+    "items": [
+      "is your room too bright, too hot, or too loud",
+      "did you scroll for ‘five minutes’ at midnight (it was two hours)",
+      "did you wake up to an alarm or to dread",
+      "is your sleep schedule a suggestion",
+      "are you running on 5 hours and spite",
+      "have you had caffeine after 2pm",
+      "did you sleep or just lie in the dark with your phone",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
