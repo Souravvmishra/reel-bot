@@ -5746,5 +5746,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-05T22:08:33",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "room",
+    "intro": "if stepping over a mountain of worn-once hoodies to reach your bed is your main workout, here’s your checklist",
+    "items": [
+      "are your clothes living on “the chair” instead of in the closet",
+      "did you have to clear a path on the floor just to open your door",
+      "is your bed half covered in laundry you refuse to put away",
+      "are there empty snack boxes taking over your nightstand",
+      "did you step on something sharp on the floor and just ignore it",
+      "send this to the friend whose floor is 90% dirty clothes",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "messyroom",
+      "roomreset",
+      "cleanwithme",
+      "tidyup"
+    ]
   }
 ]
