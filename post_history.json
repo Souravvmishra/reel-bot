@@ -5770,5 +5770,28 @@
       "cleanwithme",
       "tidyup"
     ]
+  },
+  {
+    "ts": "2026-11-06T11:21:14",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "gym",
+    "intro": "if you put on sports clothes just to sit on the couch for four hours, here’s your checklist",
+    "items": [
+      "is your gym bag sitting on the floor like a piece of modern art",
+      "did you put on sneakers just to walk to the fridge and back",
+      "are you waiting for gym energy to magically fall from the sky",
+      "is your gym membership basically just a monthly donation now",
+      "send this to the friend who promised to go to the gym with you today",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "gymhumor",
+      "gymmotivation",
+      "fitnesstruggles",
+      "lazyday"
+    ]
   }
 ]
