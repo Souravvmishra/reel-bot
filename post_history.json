@@ -5886,5 +5886,29 @@
       "introvertdays",
       "reachout"
     ]
+  },
+  {
+    "ts": "2026-11-07T20:21:05",
+    "source": "local (fallback)",
+    "theme": "eating",
+    "intro": "a quick “why am i so hangry” checklist",
+    "items": [
+      "when did you last eat something with actual nutrients",
+      "have you had a vegetable this week",
+      "have you eaten at a table or standing over the sink",
+      "did you skip breakfast and wonder why you’re crying",
+      "is your ‘lunch’ a granola bar you found in your bag",
+      "are you running on sugar and vibes",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
