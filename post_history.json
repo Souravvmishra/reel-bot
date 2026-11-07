@@ -5863,5 +5863,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-07T17:14:09",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "friends",
+    "intro": "if you lurk in the group chat like a silent ghost in a haunted house, here’s your checklist",
+    "items": [
+      "did you cancel plans just to sit at home and miss the people you canceled on",
+      "have you read a text in your phone alerts and said “i’ll reply later” four days ago",
+      "have you spoken out loud today or just made little noises at your pet",
+      "are you ignoring messages because typing two words feels like heavy lifting",
+      "send this to the friend who has been hiding from the group chat",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "lonely",
+      "socialburnout",
+      "introvertdays",
+      "reachout"
+    ]
   }
 ]
