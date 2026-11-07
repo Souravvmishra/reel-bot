@@ -5840,5 +5840,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-07T10:35:48",
+    "source": "local (fallback)",
+    "theme": "procrastination",
+    "intro": "if your to-do list is a graveyard, here’s your checklist",
+    "items": [
+      "would future you forgive you or be mad",
+      "have you started for just five minutes (that’s the trick)",
+      "have you done the hardest thing first or saved it forever",
+      "is the task actually big or just loud in your head",
+      "are you waiting for motivation that never comes",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
