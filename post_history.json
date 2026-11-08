@@ -5910,5 +5910,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-08T10:40:45",
+    "source": "local (fallback)",
+    "theme": "body",
+    "intro": "a quick “why does my body hurt” checklist",
+    "items": [
+      "have you stretched in the last 72 hours",
+      "have you looked at something more than two feet from your face today",
+      "is your neck doing that phone-tilt thing",
+      "have you walked further than from your bed to your couch",
+      "are you sitting like a shrimp right now",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
