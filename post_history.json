@@ -5956,5 +5956,30 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-08T20:39:14",
+    "source": "local (fallback)",
+    "theme": "marriage",
+    "intro": "a quick “why does my marriage feel like a roommate situation” checklist",
+    "items": [
+      "do you talk about anything besides chores and logistics",
+      "when did you last ask about their day and actually listen",
+      "have you touched them without it leading somewhere",
+      "have you said thank you for the small stuff lately",
+      "when did you last go on an actual date with them",
+      "do you still like them or just love them",
+      "are you fighting about the same thing since 2019",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
