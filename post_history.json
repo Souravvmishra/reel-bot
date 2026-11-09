@@ -6006,5 +6006,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-09T21:48:01",
+    "source": "local (fallback)",
+    "theme": "money",
+    "intro": "the “where did all my money go” checklist",
+    "items": [
+      "have you impulse-bought something while sad",
+      "did you buy something you didn’t need this week",
+      "have you checked your balance (be brave)",
+      "are you avoiding opening your banking app",
+      "are you eating out because you’re too tired to cook",
+      "did you buy a coffee when there’s coffee at home",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
