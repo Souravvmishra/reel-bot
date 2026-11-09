@@ -5981,5 +5981,30 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-09T11:58:28",
+    "source": "local (fallback)",
+    "theme": "procrastination",
+    "intro": "if your to-do list is a graveyard, here’s your checklist",
+    "items": [
+      "are you scrolling to feel productive instead of doing",
+      "have you started for just five minutes (that’s the trick)",
+      "have you broken it into a stupidly small first step",
+      "is ‘i work better under pressure’ just your excuse",
+      "are you waiting for motivation that never comes",
+      "have you done the hardest thing first or saved it forever",
+      "is the task actually big or just loud in your head",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
