@@ -6076,5 +6076,30 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-10T19:08:03",
+    "source": "local (fallback)",
+    "theme": "comparison",
+    "intro": "if a stranger’s grid made you feel small today, here’s your checklist",
+    "items": [
+      "are you jealous or just tired",
+      "are you comparing your chapter one to their chapter twenty",
+      "is ‘everyone else’ actually just five people you don’t know",
+      "have you unfollowed the accounts that make you feel bad",
+      "have you done one thing today you’re proud of",
+      "would you trade your whole life for theirs, problems included",
+      "have you remembered they also post from their lowest moments",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
