@@ -6030,5 +6030,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-10T00:20:36",
+    "source": "local (fallback)",
+    "theme": "social",
+    "intro": "if your weekend highlight was a grocery run, here’s your checklist",
+    "items": [
+      "when did you last laugh out loud with a person",
+      "are you still texting back within 24 hours",
+      "have you said yes to anything this month",
+      "are you waiting for someone else to plan it",
+      "have you made the first move or always waited",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
