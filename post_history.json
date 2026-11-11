@@ -6124,5 +6124,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-11T11:22:14",
+    "source": "local (fallback)",
+    "theme": "body",
+    "intro": "the “i’m 25 and my back is 80” checklist",
+    "items": [
+      "is your body trying to tell you something you’re ignoring",
+      "have you unclenched your jaw (you’re welcome)",
+      "are your shoulders up by your ears",
+      "are you sitting like a shrimp right now",
+      "have you stretched in the last 72 hours",
+      "have you walked further than from your bed to your couch",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
