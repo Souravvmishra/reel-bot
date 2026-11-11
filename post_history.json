@@ -6148,5 +6148,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-11T19:04:47",
+    "source": "local (fallback)",
+    "theme": "friends",
+    "intro": "the “everyone forgot about me” checklist",
+    "items": [
+      "is your friendship surviving on likes and streaks",
+      "have you texted someone back (they’re not mad, they’re waiting)",
+      "when did you last hear a friend’s actual voice",
+      "is your best friend also just your phone",
+      "are you isolating because you’re tired or because you’re scared",
+      "have you reached out first, like, ever",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
