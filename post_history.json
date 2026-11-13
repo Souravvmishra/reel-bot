@@ -6244,5 +6244,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-13T11:24:06",
+    "source": "local (fallback)",
+    "theme": "comparison",
+    "intro": "if a stranger’s grid made you feel small today, here’s your checklist",
+    "items": [
+      "have you done one thing today you’re proud of",
+      "have you been comparing your behind-the-scenes to their highlight reel",
+      "have you touched grass and realized the algorithm isn’t real life",
+      "have you remembered they also post from their lowest moments",
+      "are you jealous or just tired",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
