@@ -6267,5 +6267,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-13T19:00:39",
+    "source": "local (fallback)",
+    "theme": "social",
+    "intro": "the “i have no plans and it’s saturday” checklist",
+    "items": [
+      "when did you last laugh out loud with a person",
+      "is your weekend calendar just your couch",
+      "have you done something social without a screen",
+      "is your ‘i’m busy’ actually ‘i’m scared’",
+      "have you invited anyone to anything ever",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
