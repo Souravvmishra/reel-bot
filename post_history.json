@@ -6360,5 +6360,30 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-14T20:49:16",
+    "source": "local (fallback)",
+    "theme": "eating",
+    "intro": "if your last meal was a coffee and a prayer, here’s your checklist",
+    "items": [
+      "have you drunk any water today (that ‘headache’ is thirst)",
+      "did you skip breakfast and wonder why you’re crying",
+      "is your ‘lunch’ a granola bar you found in your bag",
+      "when did you last eat something with actual nutrients",
+      "have you eaten a meal that isn’t coffee",
+      "have you had a vegetable this week",
+      "have you eaten at a table or standing over the sink",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
