@@ -6314,5 +6314,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-14T10:48:02",
+    "source": "local (fallback)",
+    "theme": "hygiene",
+    "intro": "the “i haven’t showered and i’m fine with it (i’m not)” checklist",
+    "items": [
+      "when did you last do laundry",
+      "have you washed your face",
+      "have you showered today (or this week)",
+      "have you changed your clothes or are you wearing yesterday’s",
+      "is your skincare routine ‘water, sometimes’",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
