@@ -6337,5 +6337,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-14T17:31:19",
+    "source": "local (fallback)",
+    "theme": "friends",
+    "intro": "a quick “why do i feel so disconnected” checklist",
+    "items": [
+      "when did you last hear a friend’s actual voice",
+      "have you actually made plans or just said ‘we should hang’",
+      "are you isolating because you’re tired or because you’re scared",
+      "is your friendship surviving on likes and streaks",
+      "have you replied ‘lol’ and called it a conversation",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
