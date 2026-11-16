@@ -6481,5 +6481,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-16T21:29:13",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "body",
+    "intro": "the “my knees sound like bubble wrap when i stand up” checklist",
+    "items": [
+      "when did your lower back start making noises like a rusty door hinge",
+      "are your hips stiffer than a wooden board right now",
+      "have you been sticking your neck out like a turtle all morning",
+      "did you stand up just now and need three seconds to un-stick yourself",
+      "are your feet totally asleep from sitting on them weird",
+      "send this to the friend whose back cracks louder than a dry twig",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "backpain",
+      "posturecheck",
+      "growingold",
+      "bodyaches"
+    ]
   }
 ]
