@@ -6457,5 +6457,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-16T11:55:23",
+    "source": "local (fallback)",
+    "theme": "procrastination",
+    "intro": "a quick “why can’t i start anything” checklist",
+    "items": [
+      "is your phone in the same room right now",
+      "have you started for just five minutes (that’s the trick)",
+      "is the task actually big or just loud in your head",
+      "have you done the hardest thing first or saved it forever",
+      "have you broken it into a stupidly small first step",
+      "have you just done one tiny thing yet",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
