@@ -6553,5 +6553,30 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-17T23:34:59",
+    "source": "local (fallback)",
+    "theme": "sleep",
+    "intro": "if your bed is a warm jail cell you can’t escape, here’s your checklist",
+    "items": [
+      "are you running on 5 hours and spite",
+      "have you had caffeine after 2pm",
+      "is your sleep schedule a suggestion",
+      "have you been awake since 4am thinking about that thing",
+      "have you napped today and regretted it right away",
+      "did you scroll for ‘five minutes’ at midnight (it was two hours)",
+      "did you wake up to an alarm or to dread",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
