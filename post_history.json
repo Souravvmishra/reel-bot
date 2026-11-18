@@ -6578,5 +6578,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-18T12:06:01",
+    "source": "local (fallback)",
+    "theme": "brain",
+    "intro": "a quick “why can’t my brain shut up” checklist",
+    "items": [
+      "have you eaten today (hungry thoughts aren’t real thoughts)",
+      "is your brain replaying something from 2016",
+      "is it 2am (go to sleep, nothing good happens after 2am)",
+      "have you written the thought down so it stops looping",
+      "is this problem happening right now or in your head",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
