@@ -6601,5 +6601,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-18T22:59:22",
+    "source": "local (fallback)",
+    "theme": "work",
+    "intro": "if sunday night already feels like punishment, here’s your checklist",
+    "items": [
+      "are you answering emails at 11pm",
+      "have you logged off today or are you ‘just checking’",
+      "is your work-life balance a complete lie",
+      "have you actually taken your vacation days",
+      "have you said no to one extra task this week",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
