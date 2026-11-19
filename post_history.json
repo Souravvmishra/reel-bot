@@ -6648,5 +6648,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-19T23:08:10",
+    "source": "local (fallback)",
+    "theme": "anxiety",
+    "intro": "the “i’m anxious and i don’t know why” checklist",
+    "items": [
+      "have you moved your body to burn off the nervous energy",
+      "have you been doom scrolling bad news for hours",
+      "have you named what you’re scared of, out loud",
+      "have you taken ten slow breaths, like actually slow",
+      "have you told someone how you feel",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
