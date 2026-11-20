@@ -6671,5 +6671,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-20T12:01:18",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "philosophy",
+    "intro": "staring at your dark ceiling at 3am trying to solve the meaning of life in your pajamas: the checklist",
+    "items": [
+      "are you trying to figure out your life purpose while wearing old pajama pants",
+      "did you forget that big life questions sound way scarier in total darkness",
+      "are you panicking about getting older while lying flat on your back",
+      "have you reminded your brain that 3am isn’t the right time to audit your entire existence",
+      "send this to the friend who also questions all their life choices in the middle of the night",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "nightthoughts",
+      "existentialcrisis",
+      "3amthoughts",
+      "overthinking"
+    ]
   }
 ]
