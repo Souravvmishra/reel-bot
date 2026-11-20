@@ -6718,5 +6718,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-20T22:43:12",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "sleep",
+    "intro": "if you ate a giant bowl of pasta at noon and now your eyelids weigh fifty pounds, here’s your 3pm slump checklist",
+    "items": [
+      "did you eat a huge heavy lunch and expect your brain to stay awake",
+      "are you sitting like a melted candle waiting for five o’clock",
+      "did your afternoon coffee just make your heart fast while you stay sleepy",
+      "are your eyelids suddenly way too heavy to keep open",
+      "are you blinking in slow motion to trick yourself into a tiny nap",
+      "send this to a friend who is fighting a 3pm slump right now",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "afternooncrash",
+      "lowenergy",
+      "middayslump",
+      "tired"
+    ]
   }
 ]
