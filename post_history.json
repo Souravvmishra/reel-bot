@@ -6742,5 +6742,28 @@
       "middayslump",
       "tired"
     ]
+  },
+  {
+    "ts": "2026-11-21T11:36:30",
+    "source": "local (fallback)",
+    "theme": "screens",
+    "intro": "a quick “why do i feel like a zombie” checklist",
+    "items": [
+      "did you compare your life to a stranger’s highlight reel today",
+      "when did you last sit with your own thoughts, no podcast, no music",
+      "are you doom scrolling right now instead of doing the thing",
+      "have you watched one full video without skipping ahead",
+      "is your thumb developing a scroll callus",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
