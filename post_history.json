@@ -6838,5 +6838,28 @@
       "stressrelief",
       "calmdown"
     ]
+  },
+  {
+    "ts": "2026-11-22T21:55:59",
+    "source": "local (fallback)",
+    "theme": "eating",
+    "intro": "if your last meal was a coffee and a prayer, here’s your checklist",
+    "items": [
+      "did you skip breakfast and wonder why you’re crying",
+      "have you drunk any water today (that ‘headache’ is thirst)",
+      "have you eaten a meal that isn’t coffee",
+      "have you had a vegetable this week",
+      "have you eaten at a table or standing over the sink",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
