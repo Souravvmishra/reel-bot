@@ -6814,5 +6814,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-22T11:50:26",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "anxiety",
+    "intro": "if your chest feels locked in a tiny box while you’re just sitting on the couch, here’s your chest tight checklist",
+    "items": [
+      "are you taking tiny shallow breaths like you’re trying not to make a sound",
+      "is your chest locked up like you’re waiting for someone to yell",
+      "are you holding your breath every time you open a text or an email",
+      "did you forget to let your ribs expand when you breathe in",
+      "have you relaxed your chest and let your belly go soft today",
+      "send this to a friend who’s holding all their stress right in their chest",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "chesttightness",
+      "anxietyrelief",
+      "stressrelief",
+      "calmdown"
+    ]
   }
 ]
