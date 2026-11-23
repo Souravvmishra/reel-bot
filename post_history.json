@@ -6861,5 +6861,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-23T23:09:09",
+    "source": "local (fallback)",
+    "theme": "philosophy",
+    "intro": "if it’s 3am and you’re asking why anything exists, here’s a checklist",
+    "items": [
+      "are you tired (all philosophy hits harder when tired)",
+      "have you done one small real thing today",
+      "have you touched grass and looked at the sky",
+      "is your crisis about the universe or your to-do list",
+      "are you trying to solve everything at once again",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
