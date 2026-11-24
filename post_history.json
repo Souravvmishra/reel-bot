@@ -6909,5 +6909,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-24T21:47:51",
+    "source": "local (fallback)",
+    "theme": "work",
+    "intro": "the “my job is eating my soul” checklist",
+    "items": [
+      "are you running on burnout and calling it hustle",
+      "have you logged off today or are you ‘just checking’",
+      "have you said no to one extra task this week",
+      "are you answering emails at 11pm",
+      "have you done the one task you keep avoiding all week",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
