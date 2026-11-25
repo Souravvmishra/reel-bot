@@ -6979,5 +6979,29 @@
       "stressrelief",
       "calmdown"
     ]
+  },
+  {
+    "ts": "2026-11-25T20:54:50",
+    "source": "local (fallback)",
+    "theme": "screens",
+    "intro": "your eyes are dry and your thumb won’t stop. here’s a checklist",
+    "items": [
+      "have you put your phone in another room for even one hour",
+      "have you looked at something that isn’t a screen since you woke up",
+      "when did you last sit with your own thoughts, no podcast, no music",
+      "how many hours of screen time did you actually clock today",
+      "did you compare your life to a stranger’s highlight reel today",
+      "did you check your phone out of boredom or out of need",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
