@@ -6955,5 +6955,29 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-25T13:20:54",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "anxiety",
+    "intro": "if your rib cage feels like a crushed soda can right now, here’s your checklist",
+    "items": [
+      "is your chest clenched like a tight little fist right now",
+      "did your ribs lock up the second your phone rang",
+      "does it feel like a heavy rock is sitting right in the middle of your chest",
+      "are you keeping all the air trapped up high instead of letting it go down",
+      "have you tried letting your chest drop and your belly fill with air",
+      "send this to a friend who holds all their stress in their chest",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "chesttightness",
+      "anxietyrelief",
+      "stressrelief",
+      "calmdown"
+    ]
   }
 ]
