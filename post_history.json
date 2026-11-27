@@ -7050,5 +7050,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-27T12:57:41",
+    "source": "gemini (gemini-3.5-flash)",
+    "theme": "room",
+    "intro": "if you have to clear a path through four days of hoodies just to reach your bed, here’s your checklist",
+    "items": [
+      "are half the cups from your kitchen currently living on your nightstand",
+      "has the laundry chair officially taken over as your main closet",
+      "did you sleep on one tiny edge of your mattress because the rest is covered in stuff",
+      "are you stepping over the same empty box on your floor instead of moving it",
+      "send this to a friend whose room is also a total obstacle course right now",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "messyroom",
+      "roomreset",
+      "cleanwithme",
+      "messyspace"
+    ]
   }
 ]
