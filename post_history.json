@@ -7123,5 +7123,28 @@
       "checkinyourself",
       "dailyreminder"
     ]
+  },
+  {
+    "ts": "2026-11-28T12:11:15",
+    "source": "local (fallback)",
+    "theme": "psychology",
+    "intro": "the “i diagnosed myself with everything” checklist",
+    "items": [
+      "is your personality a list of online diagnoses",
+      "is this insight or just spiraling with extra steps",
+      "have you slept or are you analyzing on empty",
+      "is your brain just tired, not broken",
+      "have you labeled a normal feeling as a disorder",
+      "send this to the friend who needs to see it",
+      "etc"
+    ],
+    "hashtags": [
+      "checklist",
+      "selfcare",
+      "mentalhealth",
+      "relatable",
+      "checkinyourself",
+      "dailyreminder"
+    ]
   }
 ]
